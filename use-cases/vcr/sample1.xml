@@ -27,59 +27,77 @@
     </cmd:Resources>
     <cmd:Components>
         <VirtualCollection>
-            <Title>
-                <Title>Test VCR instance</Title>
-            </Title>
+            <TitleInfo>
+                <title xml:lang="en">Test instance VCR</title>
+                <title xml:lang="nl">Testinstantie VCR</title>
+                <alternativeTitle>VCR test</alternativeTitle>
+            </TitleInfo>
+            <Description>
+                <description xml:lang="en">Test record for VCR use case</description>
+            </Description>
             <Identification>
                 <Handle>http://hdl.handle.net/11372/VCR-1027</Handle>
                 <InternalIdentifier>VCR-1027</InternalIdentifier>
                 <AlternateIdentifier>https://collections.clarin.eu/service/virtualcollections/1027</AlternateIdentifier>
             </Identification>
             <ResourceType>
-                <Identifier>https://schema.org/Collection</Identifier>
-                <Label>Collection</Label>
+                <identifier>https://schema.org/Collection</identifier>
+                <label>Collection</label>
             </ResourceType>
             <Language>
-                <Language_name>English</Language_name>
-                <ISO-code>eng</ISO-code>
+                <name xml:lang="en">English</name>
+                <name xml:lang="nl">Engels</name>
+                <code>eng</code>
             </Language>
             <Creator>
-                <Identifier>https://orcid.org/0000-0002-1634-257X</Identifier>
-                <Name>Twan Goosen</Name>
-                <Affiliation>CLARIN ERIC</Affiliation>
+                <identifier>https://orcid.org/0000-0002-1634-257X</identifier>
+                <name>Twan Goosen</name>
+                <affiliation>CLARIN ERIC</affiliation>
                 <ContactInfo>
-                    <Email>twan@clarin.eu</Email>
+                    <email>twan@clarin.eu</email>
                 </ContactInfo>
             </Creator>
             <Provenance>
                 <CreationDate>2006-05-04</CreationDate>
                 <PublicationDate>2006-05-04</PublicationDate>
                 <LifecycleState>LifecycleState0</LifecycleState>
+                <CollectionDate>2006-05-04</CollectionDate>
+                <CollectionDate>2006-05-04</CollectionDate>
+                <Production>
+                    <ProductionDate>2006-05-04</ProductionDate>
+                    <Producer>Producer0</Producer>
+                    <ProductionMethod>ProductionMethod0</ProductionMethod>
+                </Production>
             </Provenance>
             <Version>
                 <VersionIdentifier>0.1.1</VersionIdentifier>
                 <Responsible>Twan</Responsible>
                 <Note>..</Note>
+                <Description>
+                    <description>description2</description>
+                </Description>
             </Version>
             <Subresource cmd:ref="ID001">
-                <Subresource_description>
-                    <Name>Henrik Ibsens Einfluss auf Hermann Sudermann</Name>
+                <SubresourceDescription>
+                    <label>Henrik Ibsens Einfluss auf Hermann Sudermann</label>
+                    <description>description6</description>
+                    <description>description7</description>
                     <Language>
-                        <Language_name>German</Language_name>
-                        <ISO-code>deu</ISO-code>
+                        <name>German</name>
+                        <code>deu</code>
                     </Language>
-                </Subresource_description>
-                <SubresourceTechnicalInfo cmd:ref="ID001">
-                    <Type>Website</Type>
-                    <MediaType>text/html</MediaType>
+                </SubresourceDescription>
+                <SubresourceTechnicalInfo>
+                    <type>Website</type>
+                    <mediaType>text/html</mediaType>
                 </SubresourceTechnicalInfo>
             </Subresource>
             <Subresource cmd:ref="ID003">
-                <SubresourceTechnicalInfo cmd:ref="ID003">
-                    <Type>Text</Type>
-                    <Type>PDF</Type>
-                    <MediaType>application/pdf</MediaType>
-                    <Size SizeUnit="MB">4.2</Size>
+                <SubresourceTechnicalInfo>
+                    <type>Text</type>
+                    <type>PDF</type>
+                    <mediaType>application/pdf</mediaType>
+                    <size SizeUnit="megabyte">4.2</size>
                 </SubresourceTechnicalInfo>
             </Subresource>
         </VirtualCollection>
