@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/1"
- xmlns:cue="http://www.clarin.eu/cmdi/cues/1"
- xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1595321762407"
- xmlns:dcr="http://www.isocat.org/ns/dcr"
- xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1595321762407/xsd" CMDVersion="1.2">
+<cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"
+    xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1595321762407"
+    xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1595321762407/xsd"
+    CMDVersion="1.2">
     <cmd:Header>
         <cmd:MdCreator>Twan Goosen</cmd:MdCreator>
         <cmd:MdCreationDate>2020-07-21</cmd:MdCreationDate>
@@ -23,11 +22,14 @@
                 <cmd:ResourceRef>https://hdl.handle.net/11245/1.146820</cmd:ResourceRef>
             </cmd:ResourceProxy>
         </cmd:ResourceProxyList>
-        <cmd:JournalFileProxyList />        
-        <cmd:ResourceRelationList />        
+        <cmd:JournalFileProxyList/>
+        <cmd:ResourceRelationList/>
     </cmd:Resources>
     <cmd:Components>
         <VirtualCollection>
+            <Title>
+                <Title>Test VCR instance</Title>
+            </Title>
             <Identification>
                 <Handle>http://hdl.handle.net/11372/VCR-1027</Handle>
                 <InternalIdentifier>VCR-1027</InternalIdentifier>
@@ -37,6 +39,10 @@
                 <Identifier>https://schema.org/Collection</Identifier>
                 <Label>Collection</Label>
             </ResourceType>
+            <Language>
+                <Language_name>English</Language_name>
+                <ISO-code>eng</ISO-code>
+            </Language>
             <Creator>
                 <Identifier>https://orcid.org/0000-0002-1634-257X</Identifier>
                 <Name>Twan Goosen</Name>
@@ -45,16 +51,37 @@
                     <Email>twan@clarin.eu</Email>
                 </ContactInfo>
             </Creator>
-            <SubresourceTechnicalInfo cmd:ref="ID001">
-                <Type>Website</Type>
-                <MediaType>text/html</MediaType>
-            </SubresourceTechnicalInfo>
-            <SubresourceTechnicalInfo cmd:ref="ID003">
-                <Type>Text</Type>
-                <Type>PDF</Type>
-                <MediaType>application/pdf</MediaType>
-                <Size SizeUnit="MB">4.2</Size>
-            </SubresourceTechnicalInfo>
+            <Provenance>
+                <CreationDate>2006-05-04</CreationDate>
+                <PublicationDate>2006-05-04</PublicationDate>
+                <LifecycleState>LifecycleState0</LifecycleState>
+            </Provenance>
+            <Version>
+                <VersionIdentifier>0.1.1</VersionIdentifier>
+                <Responsible>Twan</Responsible>
+                <Note>..</Note>
+            </Version>
+            <Subresource cmd:ref="ID001">
+                <Subresource_description>
+                    <Name>Henrik Ibsens Einfluss auf Hermann Sudermann</Name>
+                    <Language>
+                        <Language_name>German</Language_name>
+                        <ISO-code>deu</ISO-code>
+                    </Language>
+                </Subresource_description>
+                <SubresourceTechnicalInfo cmd:ref="ID001">
+                    <Type>Website</Type>
+                    <MediaType>text/html</MediaType>
+                </SubresourceTechnicalInfo>
+            </Subresource>
+            <Subresource cmd:ref="ID003">
+                <SubresourceTechnicalInfo cmd:ref="ID003">
+                    <Type>Text</Type>
+                    <Type>PDF</Type>
+                    <MediaType>application/pdf</MediaType>
+                    <Size SizeUnit="MB">4.2</Size>
+                </SubresourceTechnicalInfo>
+            </Subresource>
         </VirtualCollection>
     </cmd:Components>
 </cmd:CMD>
