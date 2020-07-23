@@ -36,9 +36,12 @@
                 <description xml:lang="en">Test record for VCR use case</description>
             </Description>
             <Identification>
-                <Handle>http://hdl.handle.net/11372/VCR-1027</Handle>
+                <!--<Handle>http://hdl.handle.net/11372/VCR-1027</Handle>
                 <InternalIdentifier>VCR-1027</InternalIdentifier>
-                <AlternateIdentifier>https://collections.clarin.eu/service/virtualcollections/1027</AlternateIdentifier>
+                <AlternateIdentifier>https://collections.clarin.eu/service/virtualcollections/1027</AlternateIdentifier>-->
+                <identifier type="handle">http://hdl.handle.net/11372/VCR-1027</identifier>
+                <internalIdentifier>VCR-1027</internalIdentifier>
+                <alternativeIdentifier>https://collections.clarin.eu/service/virtualcollections/1027</alternativeIdentifier>
             </Identification>
             <ResourceType>
                 <identifier>https://schema.org/Collection</identifier>
