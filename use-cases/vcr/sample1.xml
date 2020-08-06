@@ -27,6 +27,11 @@
     </cmd:Resources>
     <cmd:Components>
         <VirtualCollection>
+            <Identification>
+                <Handle>http://hdl.handle.net/11372/VCR-1027</Handle>
+                <InternalIdentifier>VCR-1027</InternalIdentifier>
+                <AlternateIdentifier>https://collections.clarin.eu/service/virtualcollections/1027</AlternateIdentifier>
+            </Identification>
             <TitleInfo>
                 <title xml:lang="en">Test instance VCR</title>
                 <title xml:lang="nl">Testinstantie VCR</title>
@@ -35,11 +40,6 @@
             <Description>
                 <description xml:lang="en">Test record for VCR use case</description>
             </Description>
-            <Identification>
-                <Handle>http://hdl.handle.net/11372/VCR-1027</Handle>
-                <InternalIdentifier>VCR-1027</InternalIdentifier>
-                <AlternateIdentifier>https://collections.clarin.eu/service/virtualcollections/1027</AlternateIdentifier>
-            </Identification>
             <ResourceType>
                 <identifier>https://schema.org/Collection</identifier>
                 <label>Collection</label>
@@ -51,24 +51,42 @@
             </Language>
             <Creator>
                 <identifier>https://orcid.org/0000-0002-1634-257X</identifier>
-                <name>Twan Goosen</name>
-                <affiliation>CLARIN ERIC</affiliation>
-                <ContactInfo>
-                    <email>twan@clarin.eu</email>
-                </ContactInfo>
+                <identifier>http://www.oxygenxml.com/</identifier>
+                <label>Twan Goosen</label>
+                <role>Creator</role>
+                <PersonInfo>
+                    <name>Twan Goosen</name>
+                    <affiliation>CLARIN ERIC</affiliation>
+                    <ContactInfo>
+                        <email>twan@clarin.eu</email>
+                    </ContactInfo>
+                </PersonInfo>
             </Creator>
-            <Provenance>
-                <CreationDate>2006-05-04</CreationDate>
-                <PublicationDate>2006-05-04</PublicationDate>
-                <LifecycleState>LifecycleState0</LifecycleState>
-                <CollectionDate>2006-05-04</CollectionDate>
-                <CollectionDate>2006-05-04</CollectionDate>
+            <ProvenanceInfo>
+                <Creation>
+                    <ActivityInfo>
+                        <When>
+                            <date>2006-05-04</date>
+                        </When>
+                    </ActivityInfo>
+                </Creation>
+                <Collection>
+                    <ActivityInfo>
+                        <When>
+                            <start>2006-05-04</start>
+                            <end>2006-05-04</end>
+                        </When>
+                    </ActivityInfo>
+                </Collection>
                 <Production>
-                    <ProductionDate>2006-05-04</ProductionDate>
-                    <Producer>Producer0</Producer>
-                    <ProductionMethod>ProductionMethod0</ProductionMethod>
+                    <ActivityInfo>
+                        <responsible>Producer0</responsible>
+                        <When>
+                            <date>2006-05-04</date>
+                        </When>
+                    </ActivityInfo>
                 </Production>
-            </Provenance>
+            </ProvenanceInfo>
             <Version>
                 <VersionIdentifier>0.1.1</VersionIdentifier>
                 <Responsible>Twan</Responsible>
