@@ -1,132 +1,186 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1" xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1595321762407" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1595321762407/xsd" CMDVersion="1.2">
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1595321762428"
+ xmlns:cue="http://www.clarin.eu/cmdi/cues/1"
+ xmlns:dcr="http://www.isocat.org/ns/dcr"
+ xmlns:cmd="http://www.clarin.eu/cmd/1"
+ xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1595321762428/xsd" CMDVersion="1.2">
     <cmd:Header>
-        <cmd:MdCreator>Twan Goosen</cmd:MdCreator>
-        <cmd:MdCreationDate>2020-07-21</cmd:MdCreationDate>
-        <cmd:MdProfile>clarin.eu:cr1:p_1595321762407</cmd:MdProfile>
-        <cmd:MdCollectionDisplayName>Core component use case samples</cmd:MdCollectionDisplayName>
+        <cmd:MdCreator>MdCreator0</cmd:MdCreator>
+        <cmd:MdCreator>MdCreator1</cmd:MdCreator>
+        <cmd:MdCreationDate>2006-05-04</cmd:MdCreationDate>
+        <cmd:MdSelfLink>http://www.oxygenxml.com/</cmd:MdSelfLink>
+        <cmd:MdProfile>http://www.oxygenxml.com/</cmd:MdProfile>
+        <cmd:MdCollectionDisplayName>MdCollectionDisplayName0</cmd:MdCollectionDisplayName>
     </cmd:Header>
     <cmd:Resources>
         <cmd:ResourceProxyList>
             <cmd:ResourceProxy id="ID001">
-                <cmd:ResourceType>Resource</cmd:ResourceType>
-                <cmd:ResourceRef>http://hdl.handle.net/2027/wu.89035754027</cmd:ResourceRef>
+                <cmd:ResourceType>Metadata</cmd:ResourceType>
+                <cmd:ResourceRef>http://www.oxygenxml.com/</cmd:ResourceRef>
             </cmd:ResourceProxy>
             <cmd:ResourceProxy id="ID003">
-                <cmd:ResourceType>Resource</cmd:ResourceType>
-                <cmd:ResourceRef>https://hdl.handle.net/11245/1.146820</cmd:ResourceRef>
+                <cmd:ResourceType>Metadata</cmd:ResourceType>
+                <cmd:ResourceRef>http://www.oxygenxml.com/</cmd:ResourceRef>
             </cmd:ResourceProxy>
         </cmd:ResourceProxyList>
-        <cmd:JournalFileProxyList/>
-        <cmd:ResourceRelationList/>
+        <cmd:JournalFileProxyList>
+        </cmd:JournalFileProxyList>
+        <cmd:ResourceRelationList>
+        </cmd:ResourceRelationList>
     </cmd:Resources>
+    <cmd:IsPartOfList>
+    </cmd:IsPartOfList>
     <cmd:Components>
-        <VirtualCollection>
+        <ADP-DDI>
             <Identification>
-                <!--<Handle>http://hdl.handle.net/11372/VCR-1027</Handle>
-                <InternalIdentifier>VCR-1027</InternalIdentifier>
-                <AlternateIdentifier>https://collections.clarin.eu/service/virtualcollections/1027</AlternateIdentifier>-->
-                <identifier type="handle">http://hdl.handle.net/11372/VCR-1027</identifier>
-                <internalIdentifier>VCR-1027</internalIdentifier>
-                <alternativeIdentifier>https://collections.clarin.eu/service/virtualcollections/1027</alternativeIdentifier>
+                <identifier>http://www.oxygenxml.com/</identifier>
+                <identifier>http://www.oxygenxml.com/</identifier>
+                <internalIdentifier>internalIdentifier0</internalIdentifier>
+                <internalIdentifier>internalIdentifier1</internalIdentifier>
+                <alternativeIdentifier>alternativeIdentifier0</alternativeIdentifier>
+                <alternativeIdentifier>alternativeIdentifier1</alternativeIdentifier>
             </Identification>
             <TitleInfo>
-                <title xml:lang="en">Test instance VCR</title>
-                <title xml:lang="nl">Testinstantie VCR</title>
-                <alternativeTitle>VCR test</alternativeTitle>
+                <title>title0</title>
+                <title>title1</title>
+                <alternativeTitle>alternativeTitle0</alternativeTitle>
+                <alternativeTitle>alternativeTitle1</alternativeTitle>
+                <subtitle>subtitle0</subtitle>
+                <subtitle>subtitle1</subtitle>
             </TitleInfo>
             <Description>
-                <description xml:lang="en">Test record for VCR use case</description>
+                <description>description0</description>
+                <description>description1</description>
             </Description>
             <ResourceType>
-                <identifier>https://schema.org/Collection</identifier>
-                <label>Collection</label>
-            </ResourceType>
-            <Language>
-                <name xml:lang="en">English</name>
-                <name xml:lang="nl">Engels</name>
-                <code>eng</code>
-            </Language>
-            <Creator>
-                <identifier>https://orcid.org/0000-0002-1634-257X</identifier>
                 <identifier>http://www.oxygenxml.com/</identifier>
-                <label>Twan Goosen</label>
-                <role>Creator</role>
+                <identifier>http://www.oxygenxml.com/</identifier>
+                <label>label0</label>
+                <label>label1</label>
+            </ResourceType>
+            <ResourceType>
+                <identifier>http://www.oxygenxml.com/</identifier>
+                <identifier>http://www.oxygenxml.com/</identifier>
+                <label>label2</label>
+                <label>label3</label>
+            </ResourceType>
+            <Creator>
+                <identifier>http://www.oxygenxml.com/</identifier>
+                <identifier>http://www.oxygenxml.com/</identifier>
+                <label>label4</label>
+                <label>label5</label>
+                <role>role0</role>
+                <role>role1</role>
                 <PersonInfo>
-                    <name>Twan Goosen</name>
-                    <affiliation>CLARIN ERIC</affiliation>
+                    <name>name0</name>
+                    <alternativeName>alternativeName0</alternativeName>
+                    <alternativeName>alternativeName1</alternativeName>
+                    <affiliation>affiliation0</affiliation>
+                    <affiliation>affiliation1</affiliation>
                     <ContactInfo>
-                        <email>twan@clarin.eu</email>
                     </ContactInfo>
                 </PersonInfo>
             </Creator>
-            <ProvenanceInfo>
-                <Creation>
-                    <ActivityInfo>
-                        <When>
-                            <date>2006-05-04</date>
-                        </When>
-                    </ActivityInfo>
-                </Creation>
-                <Collection>
-                    <ActivityInfo>
-                        <When>
-                            <date>2006-05-04</date>
-                        </When>
-                    </ActivityInfo>
-                    <ActivityInfo>
-                        <When>
-                            <date>2006-05-04</date>
-                        </When>
-                    </ActivityInfo>
-                </Collection>
-                <Publication>
-                    <ActivityInfo>
-                        <When>
-                            <date>2006-05-04</date>
-                        </When>
-                        <Responsible>
-                            <PersonInfo>
-                                <name>responsible</name>
-                            </PersonInfo>
-                        </Responsible>
-                    </ActivityInfo>
-                </Publication>
-                <Activity>
-                    <lifecycle>LifecycleState0</lifecycle>
-                </Activity>
-            </ProvenanceInfo>
+            <Creator>
+                <identifier>http://www.oxygenxml.com/</identifier>
+                <identifier>http://www.oxygenxml.com/</identifier>
+                <label>label6</label>
+                <label>label7</label>
+                <role>role2</role>
+                <role>role3</role>
+                <PersonInfo>
+                    <name>name1</name>
+                    <alternativeName>alternativeName2</alternativeName>
+                    <alternativeName>alternativeName3</alternativeName>
+                    <affiliation>affiliation2</affiliation>
+                    <affiliation>affiliation3</affiliation>
+                    <ContactInfo>
+                    </ContactInfo>
+                </PersonInfo>
+            </Creator>
             <VersionInfo>
-                <versionIdentifier>0.1.1</versionIdentifier>
-                <responsible>Twan</responsible>
-                <note>..</note>
+                <versionIdentifier>versionIdentifier0</versionIdentifier>
+                <responsible>responsible0</responsible>
+                <responsible>responsible1</responsible>
+                <note>note0</note>
+                <note>note1</note>
                 <Description>
                     <description>description2</description>
+                    <description>description3</description>
+                </Description>
+                <Description>
+                    <description>description4</description>
+                    <description>description5</description>
                 </Description>
             </VersionInfo>
-            <Subresource cmd:ref="ID001">
+            <Provenance>
+                <CreationDate>2006-05-04</CreationDate>
+                <PublicationDate>2006-05-04</PublicationDate>
+                <LifecycleState>LifecycleState0</LifecycleState>
+                <CollectionDate>2006-05-04</CollectionDate>
+                <CollectionDate>2006-05-04</CollectionDate>
+                <Production>
+                    <ProductionDate>2006-05-04</ProductionDate>
+                    <Producer>Producer0</Producer>
+                    <ProductionMethod>ProductionMethod0</ProductionMethod>
+                </Production>
+                <Production>
+                    <ProductionDate>2006-05-04</ProductionDate>
+                    <Producer>Producer1</Producer>
+                    <ProductionMethod>ProductionMethod1</ProductionMethod>
+                </Production>
+            </Provenance>
+            <Subresource>
                 <SubresourceDescription>
-                    <label>Henrik Ibsens Einfluss auf Hermann Sudermann</label>
+                    <label>label8</label>
+                    <label>label9</label>
                     <description>description6</description>
                     <description>description7</description>
                     <Language>
-                        <name>German</name>
-                        <code>deu</code>
+                        <name>name2</name>
+                        <name>name3</name>
+                        <code>code0</code>
                     </Language>
+                    <Version>
+                        <Note>Note0</Note>
+                        <Note>Note1</Note>
+                    </Version>
                 </SubresourceDescription>
                 <SubresourceTechnicalInfo>
-                    <type>Website</type>
-                    <mediaType>text/html</mediaType>
+                    <type>type0</type>
+                    <type>type1</type>
+                    <mediaType>mediaType0</mediaType>
+                    <size SizeUnit="byte">0</size>
                 </SubresourceTechnicalInfo>
             </Subresource>
-            <Subresource cmd:ref="ID003">
+            <Subresource>
+                <SubresourceDescription>
+                    <label>label10</label>
+                    <label>label11</label>
+                    <description>description8</description>
+                    <description>description9</description>
+                    <Language>
+                        <name>name4</name>
+                        <name>name5</name>
+                        <code>code1</code>
+                    </Language>
+                    <Version>
+                        <Note>Note2</Note>
+                        <Note>Note3</Note>
+                    </Version>
+                </SubresourceDescription>
                 <SubresourceTechnicalInfo>
-                    <type>Text</type>
-                    <type>PDF</type>
-                    <mediaType>application/pdf</mediaType>
-                    <size SizeUnit="megabyte">4.2</size>
+                    <type>type2</type>
+                    <type>type3</type>
+                    <mediaType>mediaType1</mediaType>
+                    <size SizeUnit="byte">0</size>
                 </SubresourceTechnicalInfo>
             </Subresource>
-        </VirtualCollection>
+            <CitationInfo>
+                <bibliographicCitation>bibliographicCitation0</bibliographicCitation>
+            </CitationInfo>
+        </ADP-DDI>
     </cmd:Components>
 </cmd:CMD>
