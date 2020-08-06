@@ -43,7 +43,8 @@
     <cmd:Components>
         <VirtualCollection>
             <Identification>
-                <identifier>http://hdl.handle.net/11372/VC-1002</identifier>
+                <identifier type="handle">http://hdl.handle.net/11372/VC-1002</identifier>
+                <identifier type="DOI">https://doi.org/10.xxxx/abcdefg</identifier>
                 <internalIdentifier>VC-1002</internalIdentifier>
             </Identification>
             <TitleInfo>
