@@ -1,62 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1" xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1595321762407" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1595321762407/xsd" CMDVersion="1.2">
+<cmd:CMD xmlns:cue="http://www.clarin.eu/cmdi/cues/1"
+    xmlns:dcr="http://www.isocat.org/ns/dcr"
+    xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1595321762407"
+    xmlns:cmd="http://www.clarin.eu/cmd/1"
+    xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1595321762407/xsd" CMDVersion="1.2">
     <cmd:Header>
-        <cmd:MdCreator>Twan Goosen</cmd:MdCreator>
-        <cmd:MdCreationDate>2020-07-21</cmd:MdCreationDate>
-        <cmd:MdProfile>clarin.eu:cr1:p_1595321762407</cmd:MdProfile>
-        <cmd:MdCollectionDisplayName>Core component use case samples</cmd:MdCollectionDisplayName>
+        <cmd:MdCreator>Dieter Van Uytvanck</cmd:MdCreator>
+        <cmd:MdCreationDate>2014-10-20</cmd:MdCreationDate>
+        <cmd:MdSelfLink>http://hdl.handle.net/11372/VC-1002</cmd:MdSelfLink>
+        <cmd:MdProfile>clarin.eu:cr1:p_1595321762428</cmd:MdProfile>
+        <cmd:MdCollectionDisplayName>Virtual Collecion Registry</cmd:MdCollectionDisplayName>
     </cmd:Header>
     <cmd:Resources>
         <cmd:ResourceProxyList>
             <cmd:ResourceProxy id="ID001">
                 <cmd:ResourceType>Resource</cmd:ResourceType>
-                <cmd:ResourceRef>http://hdl.handle.net/2027/wu.89035754027</cmd:ResourceRef>
+                <cmd:ResourceRef>http://ota.ox.ac.uk/headers/2017.xml</cmd:ResourceRef>
             </cmd:ResourceProxy>
             <cmd:ResourceProxy id="ID003">
                 <cmd:ResourceType>Resource</cmd:ResourceType>
-                <cmd:ResourceRef>https://hdl.handle.net/11245/1.146820</cmd:ResourceRef>
+                <cmd:ResourceRef>http://hdl.handle.net/2027/njp.32101068574639</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="ID005">
+                <cmd:ResourceType>Resource</cmd:ResourceType>
+                <cmd:ResourceRef>http://hdl.handle.net/2027/uc1.32106002253281</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="ID007">
+                <cmd:ResourceType>Resource</cmd:ResourceType>
+                <cmd:ResourceRef>http://hdl.handle.net/11245/1.146820</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="ID009">
+                <cmd:ResourceType>Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://hdl.handle.net/1874/250346</cmd:ResourceRef>
             </cmd:ResourceProxy>
         </cmd:ResourceProxyList>
-        <cmd:JournalFileProxyList/>
-        <cmd:ResourceRelationList/>
+        <cmd:JournalFileProxyList />
+        <cmd:ResourceRelationList />        
     </cmd:Resources>
+    <cmd:IsPartOfList/>    
     <cmd:Components>
         <VirtualCollection>
             <Identification>
-                <!--<Handle>http://hdl.handle.net/11372/VCR-1027</Handle>
-                <InternalIdentifier>VCR-1027</InternalIdentifier>
-                <AlternateIdentifier>https://collections.clarin.eu/service/virtualcollections/1027</AlternateIdentifier>-->
-                <identifier type="handle">http://hdl.handle.net/11372/VCR-1027</identifier>
-                <internalIdentifier>VCR-1027</internalIdentifier>
-                <alternativeIdentifier>https://collections.clarin.eu/service/virtualcollections/1027</alternativeIdentifier>
+                <identifier>http://hdl.handle.net/11372/VC-1002</identifier>
+                <internalIdentifier>VC-1002</internalIdentifier>
             </Identification>
             <TitleInfo>
-                <title xml:lang="en">Test instance VCR</title>
-                <title xml:lang="nl">Testinstantie VCR</title>
-                <alternativeTitle>VCR test</alternativeTitle>
+                <title>Henrik Ibsen: works and analyses</title>
             </TitleInfo>
             <Description>
-                <description xml:lang="en">Test record for VCR use case</description>
+                <description>A collection of works by and secondary sources about Henrik Ibsen. Inspired by the Hathi Trust collection (http://babel.hathitrust.org/cgi/mb?a=listis;c=1024421342) and extended with resources available via CLARIN.</description>
             </Description>
             <ResourceType>
-                <identifier>https://schema.org/Collection</identifier>
                 <label>Collection</label>
             </ResourceType>
-            <Language>
-                <name xml:lang="en">English</name>
-                <name xml:lang="nl">Engels</name>
-                <code>eng</code>
-            </Language>
             <Creator>
-                <identifier>https://orcid.org/0000-0002-1634-257X</identifier>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <label>Twan Goosen</label>
-                <role>Creator</role>
+                <identifier>https://orcid.org/0000-0001-7807-186X</identifier>
+                <label>Dieter Van Uytvanck</label>
                 <PersonInfo>
-                    <name>Twan Goosen</name>
+                    <name>Dieter Van Uytvanck</name>
                     <affiliation>CLARIN ERIC</affiliation>
                     <ContactInfo>
-                        <email>twan@clarin.eu</email>
+                        <email>dieter@clarin.eu</email>
                     </ContactInfo>
                 </PersonInfo>
             </Creator>
@@ -64,67 +70,62 @@
                 <Creation>
                     <ActivityInfo>
                         <When>
-                            <date>2006-05-04</date>
+                            <date>2014-10-20</date>
                         </When>
                     </ActivityInfo>
                 </Creation>
-                <Collection>
-                    <ActivityInfo>
-                        <When>
-                            <date>2006-05-04</date>
-                        </When>
-                    </ActivityInfo>
-                    <ActivityInfo>
-                        <When>
-                            <date>2006-05-04</date>
-                        </When>
-                    </ActivityInfo>
-                </Collection>
-                <Publication>
-                    <ActivityInfo>
-                        <When>
-                            <date>2006-05-04</date>
-                        </When>
-                        <Responsible>
-                            <PersonInfo>
-                                <name>responsible</name>
-                            </PersonInfo>
-                        </Responsible>
-                    </ActivityInfo>
-                </Publication>
-                <Activity>
-                    <lifecycle>LifecycleState0</lifecycle>
-                </Activity>
-            </ProvenanceInfo>
+            </ProvenanceInfo>            
             <VersionInfo>
-                <versionIdentifier>0.1.1</versionIdentifier>
-                <responsible>Twan</responsible>
-                <note>..</note>
+                <versionIdentifier>versionIdentifier0</versionIdentifier>
+                <!--
+                <responsible>responsible1</responsible>
+                <note>note0</note>
                 <Description>
                     <description>description2</description>
                 </Description>
+                -->
             </VersionInfo>
             <Subresource cmd:ref="ID001">
                 <SubresourceDescription>
-                    <label>Henrik Ibsens Einfluss auf Hermann Sudermann</label>
-                    <description>description6</description>
-                    <description>description7</description>
+                    <label>Peer Gynt (in English)</label>
+                    <description>An untraced edition, apparently from 1875.</description>
                     <Language>
-                        <name>German</name>
-                        <code>deu</code>
+                        <name>English</name>
+                        <code>eng</code>
                     </Language>
                 </SubresourceDescription>
                 <SubresourceTechnicalInfo>
-                    <type>Website</type>
-                    <mediaType>text/html</mediaType>
+                    <type>Text</type>
                 </SubresourceTechnicalInfo>
             </Subresource>
-            <Subresource cmd:ref="ID003">
+            <Subresource cmd:ref="ID007">
+                <SubresourceDescription>
+                    <label>hdl:11245/1.146820</label>
+                    <description>Dutch PhD thesis (with English abstract) by R.G.C. van der Zalm</description>
+                    <Language>
+                        <name>Dutch</name>
+                        <code>dut</code>
+                    </Language>
+                    <Language>
+                        <name>English</name>
+                        <code>eng</code>
+                    </Language>
+                </SubresourceDescription>
                 <SubresourceTechnicalInfo>
                     <type>Text</type>
-                    <type>PDF</type>
-                    <mediaType>application/pdf</mediaType>
-                    <size SizeUnit="megabyte">4.2</size>
+                </SubresourceTechnicalInfo>
+            </Subresource>
+            <Subresource cmd:ref="ID009">
+                <SubresourceDescription>
+                    <label>hdl:1874/250346</label>
+                    <description>Dutch BA thesis by L.G. de Jong</description>
+                    <Language>
+                        <name>Dutch</name>
+                        <code>dut</code>
+                    </Language>
+                </SubresourceDescription>
+                <SubresourceTechnicalInfo>
+                    <type>Text</type>
                 </SubresourceTechnicalInfo>
             </Subresource>
         </VirtualCollection>
