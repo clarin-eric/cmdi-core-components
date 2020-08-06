@@ -7,11 +7,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1595321762407/xsd" CMDVersion="1.2">
     <cmd:Header>
-        <cmd:MdCreator>Dieter Van Uytvanck</cmd:MdCreator>
-        <cmd:MdCreationDate>2014-10-20</cmd:MdCreationDate>
+        <cmd:MdCreator>Twan Goosen</cmd:MdCreator>
+        <cmd:MdCreationDate>2020-08-06</cmd:MdCreationDate>
         <cmd:MdSelfLink>http://hdl.handle.net/11372/VC-1002</cmd:MdSelfLink>
         <cmd:MdProfile>clarin.eu:cr1:p_1595321762428</cmd:MdProfile>
-        <cmd:MdCollectionDisplayName>Virtual Collecion Registry</cmd:MdCollectionDisplayName>
+        <cmd:MdCollectionDisplayName>Core components use cases</cmd:MdCollectionDisplayName>
     </cmd:Header>
     <cmd:Resources>
         <cmd:ResourceProxyList>
