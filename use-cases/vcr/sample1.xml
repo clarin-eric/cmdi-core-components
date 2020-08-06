@@ -82,25 +82,28 @@
                 </Collection>
                 <Publication>
                     <ActivityInfo>
-                        <method>ProductionMethod0</method>
-                        <responsible>Producer0</responsible>
                         <When>
                             <date>2006-05-04</date>
                         </When>
+                        <Responsible>
+                            <PersonInfo>
+                                <name>responsible</name>
+                            </PersonInfo>
+                        </Responsible>
                     </ActivityInfo>
                 </Publication>
                 <Activity>
                     <lifecycle>LifecycleState0</lifecycle>
                 </Activity>
             </ProvenanceInfo>
-            <Version>
-                <VersionIdentifier>0.1.1</VersionIdentifier>
-                <Responsible>Twan</Responsible>
-                <Note>..</Note>
+            <VersionInfo>
+                <versionIdentifier>0.1.1</versionIdentifier>
+                <responsible>Twan</responsible>
+                <note>..</note>
                 <Description>
                     <description>description2</description>
                 </Description>
-            </Version>
+            </VersionInfo>
             <Subresource cmd:ref="ID001">
                 <SubresourceDescription>
                     <label>Henrik Ibsens Einfluss auf Hermann Sudermann</label>
