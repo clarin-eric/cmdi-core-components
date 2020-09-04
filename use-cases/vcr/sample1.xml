@@ -42,11 +42,11 @@
     <cmd:IsPartOfList/>    
     <cmd:Components>
         <VirtualCollection>
-            <Identification>
+            <IdentificationInfo>
                 <identifier type="handle">http://hdl.handle.net/11372/VC-1002</identifier>
                 <identifier type="DOI">https://doi.org/10.xxxx/abcdefg</identifier>
                 <internalIdentifier>VC-1002</internalIdentifier>
-            </Identification>
+            </IdentificationInfo>
             <TitleInfo>
                 <title>Henrik Ibsen: works and analyses</title>
             </TitleInfo>
@@ -56,35 +56,46 @@
             <ResourceType>
                 <label>Collection</label>
             </ResourceType>
-            <Creator>
+            <Owner>
                 <identifier>https://orcid.org/0000-0001-7807-186X</identifier>
                 <label>Dieter Van Uytvanck</label>
-                <PersonInfo>
-                    <name>Dieter Van Uytvanck</name>
-                    <affiliation>CLARIN ERIC</affiliation>
-                    <ContactInfo>
-                        <email>dieter@clarin.eu</email>
-                    </ContactInfo>
-                </PersonInfo>
-            </Creator>
+                <AgentInfo>
+                    <PersonInfo>
+                        <name>Dieter Van Uytvanck</name>
+                        <affiliation>CLARIN ERIC</affiliation>
+                        <ContactInfo>
+                            <email>dieter@clarin.eu</email>
+                        </ContactInfo>
+                    </PersonInfo>
+                </AgentInfo>
+            </Owner>
             <ProvenanceInfo>
                 <Creation>
                     <ActivityInfo>
                         <When>
                             <date>2014-10-20</date>
                         </When>
+                        <Responsible>
+                            <identifier>https://orcid.org/0000-0001-7807-186X</identifier>
+                            <label>Dieter Van Uytvanck</label>
+                        </Responsible>
                     </ActivityInfo>
                 </Creation>
-            </ProvenanceInfo>            
-            <VersionInfo>
-                <versionIdentifier>versionIdentifier0</versionIdentifier>
                 <!--
-                <responsible>responsible1</responsible>
-                <note>note0</note>
-                <Description>
-                    <description>description2</description>
-                </Description>
+                <Publication>
+                    <ActivityInfo>
+                        <When></When>
+                    </ActivityInfo>
+                </Publication>
                 -->
+            </ProvenanceInfo>  
+            <VersionInfo>
+                <versionIdentifier>1.0.0</versionIdentifier>
+                <note>Note about this specific version</note>
+                <Responsible>
+                    <identifier>https://orcid.org/0000-0001-7807-186X</identifier>
+                    <label>Dieter Van Uytvanck</label>
+                </Responsible>
             </VersionInfo>
             <Subresource cmd:ref="ID001">
                 <SubresourceDescription>
@@ -99,10 +110,19 @@
                     <type>Text</type>
                 </SubresourceTechnicalInfo>
             </Subresource>
-            <Subresource cmd:ref="ID007">
+            <Subresource cmd:ref="ID003">
+                <SubresourceDescription>
+                    <label>Henrik Ibsen, poet, mystic and moralist / by Henry Rose. </label>
+                    <bibliographicCitation>Rose, H. (1913). Henrik Ibsen, poet, mystic and moralist. New York: Dodd Mead.</bibliographicCitation>
+                    <VersionInfo>
+                        <versionIdentifier>2020-02-13 20:47 UTC</versionIdentifier>
+                    </VersionInfo>
+                </SubresourceDescription>
+            </Subresource><Subresource cmd:ref="ID007">
                 <SubresourceDescription>
                     <label>hdl:11245/1.146820</label>
                     <description>Dutch PhD thesis (with English abstract) by R.G.C. van der Zalm</description>
+                    <bibliographicCitation>Van der Zalm, R., &amp; Valkhoff, R. (1999). Ibsen op de planken: een ensceneringsgeschiedenis van het werk van Henrik Ibsen in Nederland 1880-1995. International Theatre &amp; Film Books.</bibliographicCitation>
                     <Language>
                         <name>Dutch</name>
                         <code>dut</code>
@@ -120,6 +140,7 @@
                 <SubresourceDescription>
                     <label>hdl:1874/250346</label>
                     <description>Dutch BA thesis by L.G. de Jong</description>
+                    <bibliographicCitation>De Jong, L. G. (2012). Typisch Ibsen. Transformatie Nederlandse type Ibsen-ensceneringen in de periode 1995-2011 (Bachelor's thesis).</bibliographicCitation>
                     <Language>
                         <name>Dutch</name>
                         <code>dut</code>
