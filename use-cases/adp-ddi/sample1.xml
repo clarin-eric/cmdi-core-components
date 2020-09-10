@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1595321762428"
- xmlns:cue="http://www.clarin.eu/cmdi/cues/1"
- xmlns:dcr="http://www.isocat.org/ns/dcr"
- xmlns:cmd="http://www.clarin.eu/cmd/1"
- xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1595321762428/xsd" CMDVersion="1.2">
+    xmlns:cue="http://www.clarin.eu/cmdi/cues/1" xmlns:dcr="http://www.isocat.org/ns/dcr"
+    xmlns:cmd="http://www.clarin.eu/cmd/1" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1595321762428/xsd"
+    CMDVersion="1.2">
     <cmd:Header>
         <cmd:MdCreator>MdCreator0</cmd:MdCreator>
         <cmd:MdCreator>MdCreator1</cmd:MdCreator>
         <cmd:MdCreationDate>2006-05-04</cmd:MdCreationDate>
         <cmd:MdSelfLink>http://www.oxygenxml.com/</cmd:MdSelfLink>
-        <cmd:MdProfile>http://www.oxygenxml.com/</cmd:MdProfile>
+        <cmd:MdProfile>clarin.eu:cr1:p_1595321762428</cmd:MdProfile>
         <cmd:MdCollectionDisplayName>MdCollectionDisplayName0</cmd:MdCollectionDisplayName>
     </cmd:Header>
     <cmd:Resources>
@@ -25,81 +24,237 @@
                 <cmd:ResourceRef>http://www.oxygenxml.com/</cmd:ResourceRef>
             </cmd:ResourceProxy>
         </cmd:ResourceProxyList>
-        <cmd:JournalFileProxyList>
-        </cmd:JournalFileProxyList>
-        <cmd:ResourceRelationList>
-        </cmd:ResourceRelationList>
+        <cmd:JournalFileProxyList> </cmd:JournalFileProxyList>
+        <cmd:ResourceRelationList> </cmd:ResourceRelationList>
     </cmd:Resources>
-    <cmd:IsPartOfList>
-    </cmd:IsPartOfList>
+    <cmd:IsPartOfList> </cmd:IsPartOfList>
     <cmd:Components>
         <ADP-DDI>
-            <Identification>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <internalIdentifier>internalIdentifier0</internalIdentifier>
-                <internalIdentifier>internalIdentifier1</internalIdentifier>
-                <alternativeIdentifier>alternativeIdentifier0</alternativeIdentifier>
-                <alternativeIdentifier>alternativeIdentifier1</alternativeIdentifier>
-            </Identification>
+            <IdentificationInfo>
+                <!-- /codeBook/stdyDscr/citation/titlStmt/IDNo -->
+                <identifier>https://doi.org/10.17898/ADP_RAZJED10_V1</identifier>
+                <!-- /codeBook/stdyDscr/citation/titlStmt/IDNo -->
+                <internalIdentifier>RAZJED10</internalIdentifier>
+            </IdentificationInfo>
             <TitleInfo>
-                <title>title0</title>
-                <title>title1</title>
-                <alternativeTitle>alternativeTitle0</alternativeTitle>
-                <alternativeTitle>alternativeTitle1</alternativeTitle>
-                <subtitle>subtitle0</subtitle>
-                <subtitle>subtitle1</subtitle>
+                <!-- /codeBook/stdyDscr/citation/titlStmt/titl -->
+                <title xml:lang="en-GB">Local and regional developmental cores</title>
+                <!-- /codeBook/stdyDscr/citation/titlStmt/parTitl -->
+                <title xml:lang="sl-SI">Lokalna in regionalna razvojna jedra</title>
             </TitleInfo>
             <Description>
-                <description>description0</description>
-                <description>description1</description>
+                <!-- /codeBook/stdyDscr/stdyInfo/abstract -->
+                <description xml:lang="en-GB">The survey is focused on developmental potentials, innovative actors and support institutions (incubators and technological parks), their formation, mutual interaction and communication in particular from the perspective of knowledge transfer and on the role of civil society and NGOs in this framework. The hypothesis is that density of these organizations (NGOs) is important for formation and diffusion of social capital. NGOs can be directly or in-directly included in local developmental projects.</description>
             </Description>
             <ResourceType>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <label>label0</label>
-                <label>label1</label>
-            </ResourceType>
-            <ResourceType>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <label>label2</label>
-                <label>label3</label>
+                <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/dataKind -->
+                <label xml:lang="en-GB">Transcripts of semi-structured interviews and focus groups.</label>
             </ResourceType>
             <Creator>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <label>label4</label>
-                <label>label5</label>
-                <role>role0</role>
-                <role>role1</role>
-                <PersonInfo>
-                    <name>name0</name>
-                    <alternativeName>alternativeName0</alternativeName>
-                    <alternativeName>alternativeName1</alternativeName>
-                    <affiliation>affiliation0</affiliation>
-                    <affiliation>affiliation1</affiliation>
-                    <ContactInfo>
-                    </ContactInfo>
-                </PersonInfo>
+                <!-- /codeBook/stdyDscr/citation/rspStmt/AuthEnty -->
+                <label>Adam, Frane</label>
+                <AgentInfo>
+                    <PersonInfo>
+                        <!-- /codeBook/stdyDscr/citation/rspStmt/AuthEnty -->
+                        <name>Adam, Frane</name>
+                        <!-- ./@affiliation -->
+                        <affiliation>Inštitut za razvojne in strateške analize = The institute for developmental and strategic analysis</affiliation>
+                    </PersonInfo>
+                </AgentInfo>
             </Creator>
-            <Creator>
+            <Contributor>
+                <!-- /codeBook/stdyDscr/citation/rspStmt/othId/p -->
+                <label>Kristan, Primož</label>
+                <!-- /codeBook/stdyDscr/citation/rspStmt/othId/@role -->
+                <role>conceptualization collaborator</role>
+            </Contributor>
+            <Contributor>
+                <!-- /codeBook/stdyDscr/citation/rspStmt/othId/p -->
+                <label>Vojvodić, Ana</label>
+                <!-- /codeBook/stdyDscr/citation/rspStmt/othId/@role -->
+                <role>conceptualization collaborator</role>
+            </Contributor>
+            <Contributor>
+                <!-- /codeBook/stdyDscr/citation/rspStmt/othId/p -->
+                <label>Rončević, Borut</label>
+                <!-- /codeBook/stdyDscr/citation/rspStmt/othId/@role -->
+                <role>conceptualization collaborator</role>
+            </Contributor>
+            <Contributor>
+                <!-- /codeBook/stdyDscr/citation/rspStmt/othId/p -->
+                <label>Kalčić, Špela</label>
+                <!-- /codeBook/stdyDscr/citation/rspStmt/othId/@role -->
+                <role>conceptualization collaborator</role>
+            </Contributor>
+            <Contributor>
+                <!-- /codeBook/stdyDscr/citation/rspStmt/othId/p -->
+                <label>Podmenik, Dane</label>
+                <!-- /codeBook/stdyDscr/citation/rspStmt/othId/@role -->
+                <role>conceptualization collaborator</role>
+            </Contributor>
+            <Contributor>
+                <!-- /codeBook/stdyDscr/citation/rspStmt/othId/p -->
+                <label>Šinkovec, Urša</label>
+                <!-- /codeBook/stdyDscr/citation/rspStmt/othId/@role -->
+                <role>conceptualization collaborator</role>
+            </Contributor>
+            <Contributor>
+                <!-- /codeBook/stdyDscr/citation/rspStmt/othId/p -->
+                <label>Besednjak, Tamara</label>
+                <!-- /codeBook/stdyDscr/citation/rspStmt/othId/@role -->
+                <role>conceptualization collaborator</role>
+            </Contributor>
+            <Publisher>
                 <identifier>http://www.oxygenxml.com/</identifier>
                 <identifier>http://www.oxygenxml.com/</identifier>
-                <label>label6</label>
-                <label>label7</label>
-                <role>role2</role>
-                <role>role3</role>
-                <PersonInfo>
-                    <name>name1</name>
-                    <alternativeName>alternativeName2</alternativeName>
-                    <alternativeName>alternativeName3</alternativeName>
-                    <affiliation>affiliation2</affiliation>
-                    <affiliation>affiliation3</affiliation>
-                    <ContactInfo>
-                    </ContactInfo>
-                </PersonInfo>
-            </Creator>
+                <name>name8</name>
+                <ContactInfo>
+                    <email>email0</email>
+                    <email>email1</email>
+                </ContactInfo>
+            </Publisher>
+            <ProvenanceInfo>
+                <Creation>
+                    <ActivityInfo>
+                        <!-- /codeBook/stdyDscr/citation/prodStmt/prodPlac -->
+                        <method>Production</method>
+                        <note>prodPlac = Ljubljana, Slovenia</note>
+                        <note>prodPlac = Nova Gorica, Slovenia</note>
+                        <When>
+                            <!-- /codeBook/stdyDscr/citation/prodStmt/prodDate/@date -->
+                            <label>2010-01</label>
+                            <!-- /codeBook/stdyDscr/citation/prodStmt/prodDate -->
+                            <label>January 2010</label>
+                        </When>
+                        <Responsible>
+                            <!-- /codeBook/stdyDscr/citation/prodStmt/producer -->
+                            <label>Inštitut za razvojne in strateške analize = The institute for developmental and strategic analysis</label>
+                            <!-- /codeBook/stdyDscr/citation/prodStmt/producer/@abbr -->
+                            <label>IRSA</label>
+                        </Responsible>
+                        <Responsible>
+                            <!-- /codeBook/stdyDscr/citation/prodStmt/producer -->
+                            <label>Fakulteta za uporabne družbene študije v Novi Gorici = School of Advanced Social Studies in Nova Gorica</label>
+                            <!-- /codeBook/stdyDscr/citation/prodStmt/producer/@abbr -->
+                            <label>FUDŠ</label>
+                        </Responsible>
+                    </ActivityInfo>
+                </Creation>
+                <Collection>
+                    <ActivityInfo>
+                        <When>
+                            <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/collDate -->
+                            <label>November 2008</label>
+                            <date>2008-11-01</date>
+                        </When>
+                    </ActivityInfo>
+                    <ActivityInfo>
+                        <When>
+                            <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/collDate -->
+                            <label>January 2009 - March 2009</label>
+                            <start>2009-01-01</start>
+                            <end>2009-03-31</end>
+                        </When>
+                    </ActivityInfo>
+                    <ActivityInfo>
+                        <When>
+                            <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/collDate -->
+                            <label>November 2009</label>
+                            <date>2009-11-01</date>
+                        </When>
+                    </ActivityInfo>
+                </Collection>
+                <Publication>
+                    <ActivityInfo>
+                        <When> </When>
+                    </ActivityInfo>
+                    <ActivityInfo>
+                        <When> </When>
+                    </ActivityInfo>
+                </Publication>
+                <Activity>
+                    <lifecycle>lifecycle0</lifecycle>
+                    <ActivityInfo>
+                        <When> </When>
+                    </ActivityInfo>
+                    <ActivityInfo>
+                        <When> </When>
+                    </ActivityInfo>
+                </Activity>
+                <Activity>
+                    <lifecycle>lifecycle1</lifecycle>
+                    <ActivityInfo>
+                        <When> </When>
+                    </ActivityInfo>
+                    <ActivityInfo>
+                        <When> </When>
+                    </ActivityInfo>
+                </Activity>
+            </ProvenanceInfo>
+            <DistributionInfo>
+                <!-- /codeBook/stdyDscr/citation/distStmt/distDate/@date + '-01' -->
+                <distributionDate>2010-05-01</distributionDate>
+                <!-- /codeBook/stdyDscr/citation/distStmt/depDate/@date + '-01' -->
+                <depositionDate>2010-04-01</depositionDate>
+                <Distributor>
+                    <!-- /codeBook/stdyDscr/citation/distStmt/distrbtr -->
+                    <label>Arhiv družboslovnih podatkov = Social Science Data Archive</label>
+                    <label>ADP</label>
+                </Distributor>
+                <Depositor>
+                    <!-- /codeBook/stdyDscr/citation/distStmt/depositr -->
+                    <label>Inštitut za razvojne in strateške analize = The institute for developmental and strategic analysis</label>
+                    <!-- /codeBook/stdyDscr/citation/distStmt/depositr/@abbr -->
+                    <label>IRSA</label>
+                </Depositor>
+            </DistributionInfo>
+            <SubjectInfo>
+                <!-- /codeBook/stdyDscr/stdyInfo/subject/topcClas -->
+                <Subject>
+                    <label>OTHER</label>
+                </Subject>
+                <!-- /codeBook/stdyDscr/stdyInfo/subject/topcClas -->
+                <Subject>
+                    <label>Development cooperation</label>
+                </Subject>
+                <!-- /codeBook/stdyDscr/stdyInfo/subject/topcClas -->
+                <Subject>
+                    <label>ORGANISATIONAL CULTURE OF ENTERPRISES AND INSTITUTIONS</label>
+                </Subject>
+                <!--
+                    ..
+                    some subjects skipped
+                    ..
+                -->
+                <!-- /codeBook/stdyDscr/stdyInfo/subject/keyword -->
+                <Keyword>
+                    <label>regional development</label>
+                </Keyword>
+                <!-- /codeBook/stdyDscr/stdyInfo/subject/keyword -->
+                <Keyword>
+                    <label>innovative cores</label>
+                </Keyword>
+                <!--
+                    ..
+                    some keywords skipped
+                    ..
+                -->
+                <!-- /codeBook/stdyDscr/stdyInfo/subject/keyword -->
+                <Keyword>
+                    <identifier>ELSST_7d7f66dd-f5bb-440e-b1d1-71c9b4c5087c</identifier>
+                    <label xml:lang="en-GB">DEVELOPMENT</label>
+                </Keyword>
+                <!-- /codeBook/stdyDscr/stdyInfo/subject/keyword -->
+                <Keyword>
+                    <identifier>ELSST_b43e57e4-e01d-432e-b41b-ecaebbad3f6f</identifier>
+                    <label xml:lang="en-GB">DEVELOPMENT PROGRAMMES</label>
+                </Keyword>
+                <!--
+                    ..
+                    some keywords skipped
+                    ..
+                -->
+            </SubjectInfo>
             <VersionInfo>
                 <versionIdentifier>versionIdentifier0</versionIdentifier>
                 <responsible>responsible0</responsible>
@@ -114,55 +269,142 @@
                     <description>description4</description>
                     <description>description5</description>
                 </Description>
+                <Responsible>
+                    <identifier>identifier0</identifier>
+                    <identifier>identifier1</identifier>
+                    <label>label20</label>
+                    <label>label21</label>
+                    <AgentInfo> </AgentInfo>
+                </Responsible>
+                <Responsible>
+                    <identifier>identifier2</identifier>
+                    <identifier>identifier3</identifier>
+                    <label>label22</label>
+                    <label>label23</label>
+                    <AgentInfo> </AgentInfo>
+                </Responsible>
             </VersionInfo>
-            <CitationInfo>
-                <bibliographicCitation>bibliographicCitation0</bibliographicCitation>
-            </CitationInfo>
-            <Provenance>
-                <CreationDate>2006-05-04</CreationDate>
-                <PublicationDate>2006-05-04</PublicationDate>
-                <LifecycleState>LifecycleState0</LifecycleState>
-                <CollectionDate>2006-05-04</CollectionDate>
-                <CollectionDate>2006-05-04</CollectionDate>
-                <Production>
-                    <ProductionDate>2006-05-04</ProductionDate>
-                    <Producer>Producer0</Producer>
-                    <ProductionMethod>ProductionMethod0</ProductionMethod>
-                </Production>
-                <Production>
-                    <ProductionDate>2006-05-04</ProductionDate>
-                    <Producer>Producer1</Producer>
-                    <ProductionMethod>ProductionMethod1</ProductionMethod>
-                </Production>
-            </Provenance>
             <FundingInfo>
                 <Funding>
-                    <fundingAgency>fundingAgency0</fundingAgency>
-                    <grantNumber>grantNumber0</grantNumber>
+                    <!-- /codeBook/stdyDscr/citation/prodStmt/grantNo -->
+                    <grantNumber>L5-0654</grantNumber>
                 </Funding>
                 <Funding>
-                    <fundingAgency>fundingAgency1</fundingAgency>
-                    <grantNumber>grantNumber1</grantNumber>
+                    <FundingAgency>
+                        <!-- /codeBook/stdyDscr/citation/prodStmt/fundAg -->
+                        <label xml:lang="en-GB">Agencija za raziskovalno dejavnost Republike Slovenije= Slovenian Research Agency</label>
+                        <label>ARRS</label>
+                    </FundingAgency>
+                </Funding>
+                <Funding>
+                    <FundingAgency>
+                        <!-- /codeBook/stdyDscr/citation/prodStmt/fundAg -->
+                        <label xml:lang="en-GB">Služba Vlade RS za lokalno samoupravo in regionalno politiko = Government Office for Local Self-Government and Regional Policy</label>
+                        <label>SVLR</label>
+                    </FundingAgency>
                 </Funding>
             </FundingInfo>
+            <TemporalCoverage>
+                <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/timePrd -->
+                <label>November 2008 - November 2009</label>
+                <Start>
+                    <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/timePrd/@date -->
+                    <date>2008-11-01</date>
+                    <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/timePrd -->
+                    <label>November 2008</label>
+                </Start>
+                <End>
+                    <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/timePrd/@date -->
+                    <date>2009-11-30</date>
+                    <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/timePrd -->
+                    <label>November 2009</label>
+                </End>
+            </TemporalCoverage>
+            <GeographicCoverage>
+                <GeoLocation>
+                    <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/geogCover -->
+                    <label>Central Slovenia</label>
+                </GeoLocation>
+                <GeoLocation>
+                    <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/geogCover -->
+                    <label>Goriska region</label>
+                </GeoLocation>
+                <GeoLocation>
+                    <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/geogCover -->
+                    <label>Coastal-Carsic region</label>
+                </GeoLocation>
+                <GeoLocation>
+                    <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/geogCover -->
+                    <label>Southeastern region</label>
+                </GeoLocation>
+            </GeographicCoverage>
+            <AccessInfo>
+                <!-- /codeBook/stdyDscr/dataAccs/useStmt/citReq -->
+                <condition xml:lang="en-GB">The users should acknowledge in any publication both the original depositors and the Archive.</condition>
+                <!-- /codeBook/stdyDscr/dataAccs/useStmt/deposReq -->
+                <condition xml:lang="en-GB">Users are requested to deposit with the Archive two copies of any published work or report based wholly or in part on such materials and to notify the Archive of any errors discovered in the materials.</condition>
+                <!-- /codeBook/stdyDscr/dataAccs/useStmt/conditions -->
+                <condition xml:lang="en-GB">In case of ambiguity the users of the data set are advised to contact principal investigators or Archive.</condition>
+                <!-- /codeBook/stdyDscr/dataAccs/useStmt/restrctn -->
+                <restriction xml:lang="en-GB">The users should use the materials only for the purposes specified in Ordering form, to act at all times so as to preserve the confidentiality of individuals and institutions recorded in the materials.</restriction>
+                <!-- /codeBook/stdyDscr/dataAccs/useStmt/restrctn/@ID -->
+                <restriction>ccby</restriction>
+                <Contact>
+                    <!-- /codeBook/stdyDscr/dataAccs/setAvail/accsPlac -->
+                    <label>Arhiv družboslovnih podatkov = Social Science Data Archive</label>
+                    <Description>
+                        <!-- /codeBook/stdyDscr/dataAccs/setAvail/accsPlac -->
+                        <description>Access location</description>
+                    </Description>
+                    <AgentInfo>
+                        <OrganisationInfo>
+                            <!-- /codeBook/stdyDscr/dataAccs/setAvail/accsPlac -->
+                            <name>Arhiv družboslovnih podatkov = Social Science Data Archive</name>
+                            <ContactInfo>
+                                <!-- /codeBook/stdyDscr/dataAccs/setAvail/accsPlac/@URI -->
+                                <url>http://www.adp.fdv.uni-lj.si/podatki/</url>
+                            </ContactInfo>
+                        </OrganisationInfo>
+                    </AgentInfo>
+                </Contact>
+            </AccessInfo>
+            <CitationInfo>
+                <!-- /codeBook/stdyDscr/citation/biblCit -->
+                <!-- /codeBook/stdyDscr/citation/biblCit/@format -->
+                <bibliographicCitation format="MRDF">Adam, Frane et al. Local and regional developmental cores [data file]. Slovenia, Ljubljana: Inštitut za razvojne in strateške analize = The institute for developmental and strategic analysis / Slovenia, Nova Gorica: Fakulteta za uporabne družbene študije v Novi Gorici = School of Advanced Social Studies in Nova Gorica [production], 2010. Slovenia, Ljubljana: Univerza v Ljubljani = University of Ljubljana, Arhiv družboslovnih podatkov = Social Science Data Archive [distribution], 2010.</bibliographicCitation>
+            </CitationInfo>
+            <RelatedResource>
+                <!-- /codeBook/stdyDscr/othrStdyMat/relMat/citation/titlStmt/titl -->
+                <label>RAZJED10 - Lokalna in regionalna razvojna jedra, poročilo [other documents]</label>
+                <!-- /codeBook/stdyDscr/othrStdyMat/relMat/citation/holdings/@URI -->
+                <location>../podatki/razjed10/razjed10-porocilo.pdf</location>
+            </RelatedResource>
+            <RelatedResource>
+                <identifier>http://www.oxygenxml.com/</identifier>
+                <identifier>http://www.oxygenxml.com/</identifier>
+                <label>label46</label>
+                <label>label47</label>
+                <location>http://www.oxygenxml.com/</location>
+                <location>http://www.oxygenxml.com/</location>
+            </RelatedResource>
             <Subresource>
                 <SubresourceDescription>
-                    <label>label8</label>
-                    <label>label9</label>
-                    <description>description6</description>
-                    <description>description7</description>
+                    <label>label48</label>
+                    <label>label49</label>
+                    <description>description18</description>
+                    <description>description19</description>
+                    <bibliographicCitation>bibliographicCitation1</bibliographicCitation>
                     <Language>
-                        <name>name2</name>
-                        <name>name3</name>
-                        <code>code0</code>
+                        <name>name14</name>
+                        <name>name15</name>
+                        <code>code2</code>
                     </Language>
                     <Language>
-                        <name>name4</name>
-                        <name>name5</name>
-                        <code>code1</code>
+                        <name>name16</name>
+                        <name>name17</name>
+                        <code>code3</code>
                     </Language>
-                    <VersionInfo>
-                    </VersionInfo>
+                    <VersionInfo> </VersionInfo>
                 </SubresourceDescription>
                 <SubresourceTechnicalInfo>
                     <type>type0</type>
@@ -170,25 +412,44 @@
                     <mediaType>mediaType0</mediaType>
                     <size SizeUnit="byte">0</size>
                 </SubresourceTechnicalInfo>
+                <AccessInfo>
+                    <accessRights>openAccess</accessRights>
+                    <accessRequirement>authenticationRequired</accessRequirement>
+                    <accessRequirement>authenticationRequired</accessRequirement>
+                    <condition>condition2</condition>
+                    <condition>condition3</condition>
+                    <restriction>restriction2</restriction>
+                    <restriction>restriction3</restriction>
+                    <disclaimer>disclaimer2</disclaimer>
+                    <disclaimer>disclaimer3</disclaimer>
+                    <otherAccessInfo>otherAccessInfo2</otherAccessInfo>
+                    <otherAccessInfo>otherAccessInfo3</otherAccessInfo>
+                    <Contact>
+                        <AgentInfo> </AgentInfo>
+                    </Contact>
+                    <Contact>
+                        <AgentInfo> </AgentInfo>
+                    </Contact>
+                </AccessInfo>
             </Subresource>
             <Subresource>
                 <SubresourceDescription>
-                    <label>label10</label>
-                    <label>label11</label>
-                    <description>description8</description>
-                    <description>description9</description>
+                    <label>label50</label>
+                    <label>label51</label>
+                    <description>description20</description>
+                    <description>description21</description>
+                    <bibliographicCitation>bibliographicCitation2</bibliographicCitation>
                     <Language>
-                        <name>name6</name>
-                        <name>name7</name>
-                        <code>code2</code>
+                        <name>name18</name>
+                        <name>name19</name>
+                        <code>code4</code>
                     </Language>
                     <Language>
-                        <name>name8</name>
-                        <name>name9</name>
-                        <code>code3</code>
+                        <name>name20</name>
+                        <name>name21</name>
+                        <code>code5</code>
                     </Language>
-                    <VersionInfo>
-                    </VersionInfo>
+                    <VersionInfo> </VersionInfo>
                 </SubresourceDescription>
                 <SubresourceTechnicalInfo>
                     <type>type2</type>
@@ -196,23 +457,50 @@
                     <mediaType>mediaType1</mediaType>
                     <size SizeUnit="byte">0</size>
                 </SubresourceTechnicalInfo>
+                <AccessInfo>
+                    <accessRights>openAccess</accessRights>
+                    <accessRequirement>authenticationRequired</accessRequirement>
+                    <accessRequirement>authenticationRequired</accessRequirement>
+                    <condition>condition4</condition>
+                    <condition>condition5</condition>
+                    <restriction>restriction4</restriction>
+                    <restriction>restriction5</restriction>
+                    <disclaimer>disclaimer4</disclaimer>
+                    <disclaimer>disclaimer5</disclaimer>
+                    <otherAccessInfo>otherAccessInfo4</otherAccessInfo>
+                    <otherAccessInfo>otherAccessInfo5</otherAccessInfo>
+                    <Contact>
+                        <AgentInfo> </AgentInfo>
+                    </Contact>
+                    <Contact>
+                        <AgentInfo> </AgentInfo>
+                    </Contact>
+                </AccessInfo>
             </Subresource>
-            <RelatedResource>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <label>label12</label>
-                <label>label13</label>
-                <location>http://www.oxygenxml.com/</location>
-                <location>http://www.oxygenxml.com/</location>
-            </RelatedResource>
-            <RelatedResource>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <label>label14</label>
-                <label>label15</label>
-                <location>http://www.oxygenxml.com/</location>
-                <location>http://www.oxygenxml.com/</location>
-            </RelatedResource>
         </ADP-DDI>
     </cmd:Components>
+
+    <!-- excluded -->
+
+    <!--
+<sumDscr source="producer">
+    <anlyUnit source="producer">High-technological enterprises (small and medium-sized), support institutions (incubators, technological parks, developemental agencies, ...)</anlyUnit>
+    <universe clusion="I" xml:lang="en-GB" source="producer">Entrepreneurs and representatives of support institutions.</universe>
+-->
+
+    <!--
+<method source="producer">
+  <dataColl source="producer">
+    <timeMeth xml:lang="en-GB" source="producer">Cross-section</timeMeth>
+    <dataCollector abbr="IRSA" xml:lang="en-GB" source="producer">Inštitut za razvojne in strateške analize = The institute for developmental and strategic analysis</dataCollector>
+    <dataCollector abbr="FUDŠ" xml:lang="sl-SI" source="producer">Fakulteta za uporabne družbene študije v Novi Gorici = School of Advanced Social Studies in Nova Gorica</dataCollector>
+    <sampProc xml:lang="en-GB" source="producer">Non random sampling, snow-ball sampling.</sampProc>
+    <collMode xml:lang="en-GB" source="producer">Personal semi-structured interview, focus group.</collMode>
+    <resInstru xml:lang="en-GB" source="producer">Semi-structured interview.</resInstru>
+    <cleanOps xml:lang="en-GB" source="producer">The data were cleaned for out of range values before deposited.</cleanOps>
+  </dataColl>
+  <stdyClas xml:lang="en-GB" type="ADP" source="producer">8: theoretically or practically important studies, studies that fill the research gap or has many implications for a wide range of practical problems, long term scholarly value</stdyClas>
+</method>
+-->
+
 </cmd:CMD>
