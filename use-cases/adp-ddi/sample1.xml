@@ -15,13 +15,35 @@
     </cmd:Header>
     <cmd:Resources>
         <cmd:ResourceProxyList>
-            <cmd:ResourceProxy id="ID001">
-                <cmd:ResourceType>Metadata</cmd:ResourceType>
-                <cmd:ResourceRef>http://www.oxygenxml.com/</cmd:ResourceRef>
+            <!-- /codeBook/fileDscr/@ID -->
+            <cmd:ResourceProxy id="IDGradiva1874">
+                <cmd:ResourceType>Resource</cmd:ResourceType>
+                <!-- /codeBook/fileDscr/@URI -->
+                <cmd:ResourceRef>https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-go-i.pdf</cmd:ResourceRef>
             </cmd:ResourceProxy>
-            <cmd:ResourceProxy id="ID003">
-                <cmd:ResourceType>Metadata</cmd:ResourceType>
-                <cmd:ResourceRef>http://www.oxygenxml.com/</cmd:ResourceRef>
+            <!-- /codeBook/fileDscr/@ID -->
+            <cmd:ResourceProxy id="IDGradiva1876">
+                <cmd:ResourceType>Resource</cmd:ResourceType>
+                <!-- /codeBook/fileDscr/@URI -->
+                <cmd:ResourceRef>https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-jv-i.pdf</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <!-- /codeBook/fileDscr/@ID -->
+            <cmd:ResourceProxy id="IDGradiva1878">
+                <cmd:ResourceType>Resource</cmd:ResourceType>
+                <!-- /codeBook/fileDscr/@URI -->
+                <cmd:ResourceRef>https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-ok-i.pdf</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <!-- /codeBook/fileDscr/@ID -->
+            <cmd:ResourceProxy id="IDGradiva1880">
+                <cmd:ResourceType>Resource</cmd:ResourceType>
+                <!-- /codeBook/fileDscr/@URI -->
+                <cmd:ResourceRef>https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-os-i.pdf</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <!-- /codeBook/fileDscr/@ID -->
+            <cmd:ResourceProxy id="IDGradiva1882">
+                <cmd:ResourceType>Resource</cmd:ResourceType>
+                <!-- /codeBook/fileDscr/@URI -->
+                <cmd:ResourceRef>https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-po-i.pdf</cmd:ResourceRef>
             </cmd:ResourceProxy>
         </cmd:ResourceProxyList>
         <cmd:JournalFileProxyList> </cmd:JournalFileProxyList>
@@ -377,105 +399,16 @@
                 <!-- /codeBook/stdyDscr/othrStdyMat/relMat/citation/titlStmt/titl -->
                 <label>RAZJED10 - Lokalna in regionalna razvojna jedra, poročilo [other documents]</label>
                 <!-- /codeBook/stdyDscr/othrStdyMat/relMat/citation/holdings/@URI -->
-                <location>../podatki/razjed10/razjed10-porocilo.pdf</location>
+                <location>https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-porocilo.pdf</location>
             </RelatedResource>
-            <RelatedResource>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <label>label46</label>
-                <label>label47</label>
-                <location>http://www.oxygenxml.com/</location>
-                <location>http://www.oxygenxml.com/</location>
-            </RelatedResource>
-            <Subresource>
+            <Subresource cmd:ref="IDGradiva1874">
                 <SubresourceDescription>
-                    <label>label48</label>
-                    <label>label49</label>
-                    <description>description18</description>
-                    <description>description19</description>
-                    <bibliographicCitation>bibliographicCitation1</bibliographicCitation>
-                    <Language>
-                        <name>name14</name>
-                        <name>name15</name>
-                        <code>code2</code>
-                    </Language>
-                    <Language>
-                        <name>name16</name>
-                        <name>name17</name>
-                        <code>code3</code>
-                    </Language>
-                    <VersionInfo> </VersionInfo>
+                    <!-- /codeBook/fileDscr/fileTxt/fileName -->
+                    <label xml:lang="sl-SI">RAZJED10 - Goriška regija - transkripti (intervjuji, fokusna skupina) [data file], 2010</label>
+                    <!-- /codeBook/fileDscr/dimensns/caseQnty -->
+                    <description>caseQnty: 9</description>
                 </SubresourceDescription>
-                <SubresourceTechnicalInfo>
-                    <type>type0</type>
-                    <type>type1</type>
-                    <mediaType>mediaType0</mediaType>
-                    <size SizeUnit="byte">0</size>
-                </SubresourceTechnicalInfo>
-                <AccessInfo>
-                    <accessRights>openAccess</accessRights>
-                    <accessRequirement>authenticationRequired</accessRequirement>
-                    <accessRequirement>authenticationRequired</accessRequirement>
-                    <condition>condition2</condition>
-                    <condition>condition3</condition>
-                    <restriction>restriction2</restriction>
-                    <restriction>restriction3</restriction>
-                    <disclaimer>disclaimer2</disclaimer>
-                    <disclaimer>disclaimer3</disclaimer>
-                    <otherAccessInfo>otherAccessInfo2</otherAccessInfo>
-                    <otherAccessInfo>otherAccessInfo3</otherAccessInfo>
-                    <Contact>
-                        <AgentInfo> </AgentInfo>
-                    </Contact>
-                    <Contact>
-                        <AgentInfo> </AgentInfo>
-                    </Contact>
-                </AccessInfo>
-            </Subresource>
-            <Subresource>
-                <SubresourceDescription>
-                    <label>label50</label>
-                    <label>label51</label>
-                    <description>description20</description>
-                    <description>description21</description>
-                    <bibliographicCitation>bibliographicCitation2</bibliographicCitation>
-                    <Language>
-                        <name>name18</name>
-                        <name>name19</name>
-                        <code>code4</code>
-                    </Language>
-                    <Language>
-                        <name>name20</name>
-                        <name>name21</name>
-                        <code>code5</code>
-                    </Language>
-                    <VersionInfo> </VersionInfo>
-                </SubresourceDescription>
-                <SubresourceTechnicalInfo>
-                    <type>type2</type>
-                    <type>type3</type>
-                    <mediaType>mediaType1</mediaType>
-                    <size SizeUnit="byte">0</size>
-                </SubresourceTechnicalInfo>
-                <AccessInfo>
-                    <accessRights>openAccess</accessRights>
-                    <accessRequirement>authenticationRequired</accessRequirement>
-                    <accessRequirement>authenticationRequired</accessRequirement>
-                    <condition>condition4</condition>
-                    <condition>condition5</condition>
-                    <restriction>restriction4</restriction>
-                    <restriction>restriction5</restriction>
-                    <disclaimer>disclaimer4</disclaimer>
-                    <disclaimer>disclaimer5</disclaimer>
-                    <otherAccessInfo>otherAccessInfo4</otherAccessInfo>
-                    <otherAccessInfo>otherAccessInfo5</otherAccessInfo>
-                    <Contact>
-                        <AgentInfo> </AgentInfo>
-                    </Contact>
-                    <Contact>
-                        <AgentInfo> </AgentInfo>
-                    </Contact>
-                </AccessInfo>
+                <!-- TODO: details for 5 more resources -->
             </Subresource>
         </ADP-DDI>
     </cmd:Components>
