@@ -352,6 +352,7 @@
                 <!-- /codeBook/stdyDscr/citation/biblCit/@format -->
                 <bibliographicCitation format="MRDF">Adam, Frane et al. Local and regional developmental cores [data file]. Slovenia, Ljubljana: Inštitut za razvojne in strateške analize = The institute for developmental and strategic analysis / Slovenia, Nova Gorica: Fakulteta za uporabne družbene študije v Novi Gorici = School of Advanced Social Studies in Nova Gorica [production], 2010. Slovenia, Ljubljana: Univerza v Ljubljani = University of Ljubljana, Arhiv družboslovnih podatkov = Social Science Data Archive [distribution], 2010.</bibliographicCitation>
             </CitationInfo>
+            
             <!-- @cmd:ref = /codeBook/fileDscr/@ID -->
             <Subresource cmd:ref="IDGradiva1874">
                 <SubresourceDescription>
@@ -397,6 +398,7 @@
                     <description>caseQnty: 1</description>
                 </SubresourceDescription>
             </Subresource>
+            
             <RelatedResource>
                 <!-- /codeBook/stdyDscr/othrStdyMat/relMat/citation/titlStmt/titl -->
                 <label>RAZJED10 - Lokalna in regionalna razvojna jedra, poročilo [other documents]</label>
@@ -414,6 +416,68 @@
                 </CitationInfo>
             </RelatedResource>
             <!-- Skipped 10 additional related resources from /codeBook/otherMat -->
+            
+            <MetadataInfo>
+                <IdentificationInfo>
+                    <identifier>RAZJED10</identifier>
+                </IdentificationInfo>
+                <TitleInfo>
+                    <!-- /codeBook/docDscr/citation/titlStmt/titl -->
+                    <title xml:lang="en-GB">Local and regional developmental cores</title>
+                    <title xml:lang="sl-SI">Lokalna in regionalna razvojna jedra</title>
+                </TitleInfo>
+                <Creator>
+                    <!-- /codeBook/docDscr/citation/rspStmt/AuthEnty -->
+                    <label>Adam, Frane</label>
+                    <AgentInfo>
+                        <PersonInfo>
+                            <!-- /codeBook/docDscr/citation/rspStmt/AuthEnty -->
+                            <name>Adam, Frane</name>
+                            <!-- /codeBook/docDscr/citation/rspStmt/AuthEnty/@affiliation -->
+                            <affiliation>Inštitut za razvojne in strateške analize = The institute for developmental and strategic analysis</affiliation>
+                        </PersonInfo>
+                    </AgentInfo>
+                </Creator>
+                <Contributor>
+                    <!-- /codeBook/docDscr/citation/distStmt -->
+                    <label>Arhiv družboslovnih podatkov = Social Science Data Archive</label>
+                    <role>Distributor</role>
+                </Contributor>
+                <CitationInfo>
+                    <!-- /codeBook/docDscr/citation/biblCit -->
+                    <!-- @format = /codeBook/docDscr/citation/biblCit/@format -->
+                    <bibliographicCitation format="MRDF">Adam, Frane et al. Local and regional developmental cores [codebook file]. Slovenia, Ljubljana: Univerza v Ljubljani = University of Ljubljana, Arhiv družboslovnih podatkov = Social Science Data Archive [production, distribution], 2010.</bibliographicCitation>
+                </CitationInfo>
+                <ProvenanceInfo>
+                    <Creation>
+                        <ActivityInfo>
+                            <!-- /codeBook/docDscr/citation/prodStmt/software -->
+                            <method>&lt;oXygen/&gt; - XML edito</method>
+                            <!-- /codeBook/docDscr/citation/prodStmt/copyright -->
+                            <note>Copyright ADP, 2010</note>
+                            <When>
+                                <!-- /codeBook/docDscr/citation/prodStmt/prodDate -->
+                                <label>May 2010</label>
+                                <date>2010-05-01</date>
+                            </When>
+                            <Responsible>
+                                <!-- /codeBook/docDscr/citation/prodStmt/producer -->
+                                <label>Arhiv družboslovnih podatkov = Social Science Data Archive</label>
+                            </Responsible>
+                        </ActivityInfo>
+                    </Creation>
+                </ProvenanceInfo>
+                <FundingInfo>
+                    <Funding>
+                        <!-- /codeBook/docDscr/citation/prodStmt/grantNo -->
+                        <grantNumber>1000-09-160510 (IRC)</grantNumber>
+                        <FundingAgency>
+                            <!-- /codeBook/docDscr/citation/prodStmt/fundAg -->
+                            <label>Agencija za raziskovalno dejavnost Republike Slovenije= Slovenian Research Agency</label>
+                        </FundingAgency>
+                    </Funding>
+                </FundingInfo>
+            </MetadataInfo>
         </ADP-DDI>
     </cmd:Components>
 
@@ -454,4 +518,11 @@
       </dataDscr>
     -->
 
+    <!--
+        <docDscr source="producer">
+        ..
+            <holdings URI="http://www.adp.fdv.uni-lj.si/opisi/" source="producer">ADP DDI</holdings>
+            <docStatus xml:lang="en-GB" source="producer">4 - Full Study description and XML DDI Codebook Data description with full questions text.</docStatus>
+        </docDscr>
+    -->
 </cmd:CMD>
