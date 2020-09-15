@@ -195,7 +195,7 @@
                     </ActivityInfo>
                 </Publication>
                 <Activity>
-                    <lifecycle>lifecycle0</lifecycle>
+                    <label>lifecycle0</label>
                     <ActivityInfo>
                         <When> </When>
                     </ActivityInfo>
@@ -204,7 +204,7 @@
                     </ActivityInfo>
                 </Activity>
                 <Activity>
-                    <lifecycle>lifecycle1</lifecycle>
+                    <label>lifecycle1</label>
                     <ActivityInfo>
                         <When> </When>
                     </ActivityInfo>
@@ -230,53 +230,51 @@
                     <label>IRSA</label>
                 </Depositor>
             </DistributionInfo>
-            <SubjectInfo>
-                <!-- /codeBook/stdyDscr/stdyInfo/subject/topcClas -->
-                <Subject>
-                    <label>OTHER</label>
-                </Subject>
-                <!-- /codeBook/stdyDscr/stdyInfo/subject/topcClas -->
-                <Subject>
-                    <label>Development cooperation</label>
-                </Subject>
-                <!-- /codeBook/stdyDscr/stdyInfo/subject/topcClas -->
-                <Subject>
-                    <label>ORGANISATIONAL CULTURE OF ENTERPRISES AND INSTITUTIONS</label>
-                </Subject>
-                <!--
-                    ..
-                    some subjects skipped
-                    ..
-                -->
-                <!-- /codeBook/stdyDscr/stdyInfo/subject/keyword -->
-                <Keyword>
-                    <label>regional development</label>
-                </Keyword>
-                <!-- /codeBook/stdyDscr/stdyInfo/subject/keyword -->
-                <Keyword>
-                    <label>innovative cores</label>
-                </Keyword>
-                <!--
-                    ..
-                    some keywords skipped
-                    ..
-                -->
-                <!-- /codeBook/stdyDscr/stdyInfo/subject/keyword -->
-                <Keyword>
-                    <identifier>ELSST_7d7f66dd-f5bb-440e-b1d1-71c9b4c5087c</identifier>
-                    <label xml:lang="en-GB">DEVELOPMENT</label>
-                </Keyword>
-                <!-- /codeBook/stdyDscr/stdyInfo/subject/keyword -->
-                <Keyword>
-                    <identifier>ELSST_b43e57e4-e01d-432e-b41b-ecaebbad3f6f</identifier>
-                    <label xml:lang="en-GB">DEVELOPMENT PROGRAMMES</label>
-                </Keyword>
-                <!--
-                    ..
-                    some keywords skipped
-                    ..
-                -->
-            </SubjectInfo>
+            <!-- /codeBook/stdyDscr/stdyInfo/subject/topcClas -->
+            <Subject>
+                <label>OTHER</label>
+            </Subject>
+            <!-- /codeBook/stdyDscr/stdyInfo/subject/topcClas -->
+            <Subject>
+                <label>Development cooperation</label>
+            </Subject>
+            <!-- /codeBook/stdyDscr/stdyInfo/subject/topcClas -->
+            <Subject>
+                <label>ORGANISATIONAL CULTURE OF ENTERPRISES AND INSTITUTIONS</label>
+            </Subject>
+            <!--
+                ..
+                some subjects skipped
+                ..
+            -->
+            <!-- /codeBook/stdyDscr/stdyInfo/subject/keyword -->
+            <Keyword>
+                <label>regional development</label>
+            </Keyword>
+            <!-- /codeBook/stdyDscr/stdyInfo/subject/keyword -->
+            <Keyword>
+                <label>innovative cores</label>
+            </Keyword>
+            <!--
+                ..
+                some keywords skipped
+                ..
+            -->
+            <!-- /codeBook/stdyDscr/stdyInfo/subject/keyword -->
+            <Keyword>
+                <identifier>ELSST_7d7f66dd-f5bb-440e-b1d1-71c9b4c5087c</identifier>
+                <label xml:lang="en-GB">DEVELOPMENT</label>
+            </Keyword>
+            <!-- /codeBook/stdyDscr/stdyInfo/subject/keyword -->
+            <Keyword>
+                <identifier>ELSST_b43e57e4-e01d-432e-b41b-ecaebbad3f6f</identifier>
+                <label xml:lang="en-GB">DEVELOPMENT PROGRAMMES</label>
+            </Keyword>
+            <!--
+                ..
+                some keywords skipped
+                ..
+            -->
             <VersionInfo>
                 <versionIdentifier>versionIdentifier0</versionIdentifier>
                 <responsible>responsible0</responsible>
@@ -368,9 +366,9 @@
                 <!-- /codeBook/stdyDscr/dataAccs/useStmt/conditions -->
                 <condition xml:lang="en-GB">In case of ambiguity the users of the data set are advised to contact principal investigators or Archive.</condition>
                 <!-- /codeBook/stdyDscr/dataAccs/useStmt/restrctn -->
-                <restriction xml:lang="en-GB">The users should use the materials only for the purposes specified in Ordering form, to act at all times so as to preserve the confidentiality of individuals and institutions recorded in the materials.</restriction>
+                <condition xml:lang="en-GB">The users should use the materials only for the purposes specified in Ordering form, to act at all times so as to preserve the confidentiality of individuals and institutions recorded in the materials.</condition>
                 <!-- /codeBook/stdyDscr/dataAccs/useStmt/restrctn/@ID -->
-                <restriction>ccby</restriction>
+                <condition>ccby</condition>
                 <Contact>
                     <!-- /codeBook/stdyDscr/dataAccs/setAvail/accsPlac -->
                     <label>Arhiv družboslovnih podatkov = Social Science Data Archive</label>
