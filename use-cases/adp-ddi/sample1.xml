@@ -393,23 +393,6 @@
                 <!-- /codeBook/stdyDscr/citation/biblCit/@format -->
                 <bibliographicCitation format="MRDF">Adam, Frane et al. Local and regional developmental cores [data file]. Slovenia, Ljubljana: Inštitut za razvojne in strateške analize = The institute for developmental and strategic analysis / Slovenia, Nova Gorica: Fakulteta za uporabne družbene študije v Novi Gorici = School of Advanced Social Studies in Nova Gorica [production], 2010. Slovenia, Ljubljana: Univerza v Ljubljani = University of Ljubljana, Arhiv družboslovnih podatkov = Social Science Data Archive [distribution], 2010.</bibliographicCitation>
             </CitationInfo>
-            <RelatedResource>
-                <!-- /codeBook/stdyDscr/othrStdyMat/relMat/citation/titlStmt/titl -->
-                <label>RAZJED10 - Lokalna in regionalna razvojna jedra, poročilo [other documents]</label>
-                <!-- /codeBook/stdyDscr/othrStdyMat/relMat/citation/holdings/@URI -->
-                <location>https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-porocilo.pdf</location>
-            </RelatedResource>
-            <RelatedResource>
-                <!-- /codeBook/otherMat/citation/titlStmt/titl -->
-                <label>RAZJED10 - Lokalna in regionalna razvojna jedra [Questionnaire]</label>
-                <!-- /codeBook/otherMat/@URI + /codeBook/otherMat/citation/holdings -->
-                <location>http://www.adp.fdv.uni-lj.si/podatki/razjed10/razjed10-vp.pdf</location>
-                <CitationInfo>
-                    <!-- /codeBook/otherMat/citation/rspStmt + /codeBook/otherMat/citation/prodStmt -->
-                    <bibliographicCitation>Adam, Frane. 2010. IRSA, Ljubljana</bibliographicCitation>
-                </CitationInfo>
-            </RelatedResource>
-            <!-- Skipped 10 additional related resources from /codeBook/otherMat -->
             <!-- @cmd:ref = /codeBook/fileDscr/@ID -->
             <Subresource cmd:ref="IDGradiva1874">
                 <SubresourceDescription>
@@ -455,6 +438,23 @@
                     <description>caseQnty: 1</description>
                 </SubresourceDescription>
             </Subresource>
+            <RelatedResource>
+                <!-- /codeBook/stdyDscr/othrStdyMat/relMat/citation/titlStmt/titl -->
+                <label>RAZJED10 - Lokalna in regionalna razvojna jedra, poročilo [other documents]</label>
+                <!-- /codeBook/stdyDscr/othrStdyMat/relMat/citation/holdings/@URI -->
+                <location>https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-porocilo.pdf</location>
+            </RelatedResource>
+            <RelatedResource>
+                <!-- /codeBook/otherMat/citation/titlStmt/titl -->
+                <label>RAZJED10 - Lokalna in regionalna razvojna jedra [Questionnaire]</label>
+                <!-- /codeBook/otherMat/@URI + /codeBook/otherMat/citation/holdings -->
+                <location>http://www.adp.fdv.uni-lj.si/podatki/razjed10/razjed10-vp.pdf</location>
+                <CitationInfo>
+                    <!-- /codeBook/otherMat/citation/rspStmt + /codeBook/otherMat/citation/prodStmt -->
+                    <bibliographicCitation>Adam, Frane. 2010. IRSA, Ljubljana</bibliographicCitation>
+                </CitationInfo>
+            </RelatedResource>
+            <!-- Skipped 10 additional related resources from /codeBook/otherMat -->
         </ADP-DDI>
     </cmd:Components>
 
