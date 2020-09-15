@@ -6,12 +6,12 @@
     xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1595321762428/xsd"
     CMDVersion="1.2">
     <cmd:Header>
-        <cmd:MdCreator>MdCreator0</cmd:MdCreator>
-        <cmd:MdCreator>MdCreator1</cmd:MdCreator>
+        <!-- /codeBook/docDscr/citation/rspStmt/AuthEnty -->
+        <cmd:MdCreator>Adam, Frane</cmd:MdCreator>
         <cmd:MdCreationDate>2006-05-04</cmd:MdCreationDate>
-        <cmd:MdSelfLink>http://www.oxygenxml.com/</cmd:MdSelfLink>
+        <!-- <cmd:MdSelfLink>http://www.oxygenxml.com/</cmd:MdSelfLink> -->
         <cmd:MdProfile>clarin.eu:cr1:p_1595321762428</cmd:MdProfile>
-        <cmd:MdCollectionDisplayName>MdCollectionDisplayName0</cmd:MdCollectionDisplayName>
+        <!-- <cmd:MdCollectionDisplayName>MdCollectionDisplayName0</cmd:MdCollectionDisplayName> -->
     </cmd:Header>
     <cmd:Resources>
         <cmd:ResourceProxyList>
@@ -186,32 +186,6 @@
                         </When>
                     </ActivityInfo>
                 </Collection>
-                <Publication>
-                    <ActivityInfo>
-                        <When> </When>
-                    </ActivityInfo>
-                    <ActivityInfo>
-                        <When> </When>
-                    </ActivityInfo>
-                </Publication>
-                <Activity>
-                    <label>lifecycle0</label>
-                    <ActivityInfo>
-                        <When> </When>
-                    </ActivityInfo>
-                    <ActivityInfo>
-                        <When> </When>
-                    </ActivityInfo>
-                </Activity>
-                <Activity>
-                    <label>lifecycle1</label>
-                    <ActivityInfo>
-                        <When> </When>
-                    </ActivityInfo>
-                    <ActivityInfo>
-                        <When> </When>
-                    </ActivityInfo>
-                </Activity>
             </ProvenanceInfo>
             <DistributionInfo>
                 <!-- /codeBook/stdyDscr/citation/distStmt/distDate/@date + '-01' -->
@@ -275,35 +249,20 @@
                 some keywords skipped
                 ..
             -->
+            <!--
             <VersionInfo>
                 <versionIdentifier>versionIdentifier0</versionIdentifier>
                 <responsible>responsible0</responsible>
-                <responsible>responsible1</responsible>
                 <note>note0</note>
-                <note>note1</note>
                 <Description>
-                    <description>description2</description>
                     <description>description3</description>
                 </Description>
-                <Description>
-                    <description>description4</description>
-                    <description>description5</description>
-                </Description>
                 <Responsible>
-                    <identifier>identifier0</identifier>
                     <identifier>identifier1</identifier>
-                    <label>label20</label>
                     <label>label21</label>
-                    <AgentInfo> </AgentInfo>
-                </Responsible>
-                <Responsible>
-                    <identifier>identifier2</identifier>
-                    <identifier>identifier3</identifier>
-                    <label>label22</label>
-                    <label>label23</label>
-                    <AgentInfo> </AgentInfo>
                 </Responsible>
             </VersionInfo>
+            -->
             <FundingInfo>
                 <Funding>
                     <!-- /codeBook/stdyDscr/citation/prodStmt/grantNo -->
