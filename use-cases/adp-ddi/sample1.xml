@@ -399,6 +399,18 @@
                 <!-- /codeBook/stdyDscr/othrStdyMat/relMat/citation/holdings/@URI -->
                 <location>https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-porocilo.pdf</location>
             </RelatedResource>
+            <RelatedResource>
+                <!-- /codeBook/otherMat/citation/titlStmt/titl -->
+                <label>RAZJED10 - Lokalna in regionalna razvojna jedra [Questionnaire]</label>
+                <!-- /codeBook/otherMat/@URI + /codeBook/otherMat/citation/holdings -->
+                <location>http://www.adp.fdv.uni-lj.si/podatki/razjed10/razjed10-vp.pdf</location>
+                <CitationInfo>
+                    <!-- /codeBook/otherMat/citation/rspStmt + /codeBook/otherMat/citation/prodStmt -->
+                    <bibliographicCitation>Adam, Frane. 2010. IRSA, Ljubljana</bibliographicCitation>
+                </CitationInfo>
+            </RelatedResource>
+            <!-- Skipped 10 additional related resources from /codeBook/otherMat -->
+            <!-- @cmd:ref = /codeBook/fileDscr/@ID -->
             <Subresource cmd:ref="IDGradiva1874">
                 <SubresourceDescription>
                     <!-- /codeBook/fileDscr/fileTxt/fileName -->
@@ -406,32 +418,81 @@
                     <!-- /codeBook/fileDscr/dimensns/caseQnty -->
                     <description>caseQnty: 9</description>
                 </SubresourceDescription>
-                <!-- TODO: details for 5 more resources -->
+            </Subresource>
+            <!-- @cmd:ref = /codeBook/fileDscr/@ID -->
+            <Subresource cmd:ref="IDGradiva1876">
+                <SubresourceDescription>
+                    <!-- /codeBook/fileDscr/fileTxt/fileName -->
+                    <label xml:lang="sl-SI">RAZJED10 - Jugovzhodna regija - transkripti (intervjuji, fokusna skupina) [data file], 2010</label>
+                    <!-- /codeBook/fileDscr/dimensns/caseQnty -->
+                    <description>caseQnty: 3</description>
+                </SubresourceDescription>
+            </Subresource>
+            <!-- @cmd:ref = /codeBook/fileDscr/@ID -->
+            <Subresource cmd:ref="IDGradiva1878">
+                <SubresourceDescription>
+                    <!-- /codeBook/fileDscr/fileTxt/fileName -->
+                    <label xml:lang="sl-SI">RAZJED10 - Obalno-kraška regija - transkripti (intervjuji, fokusna skupina) [data file], 2010</label>
+                    <!-- /codeBook/fileDscr/dimensns/caseQnty -->
+                    <description>caseQnty: 7</description>
+                </SubresourceDescription>
+            </Subresource>
+            <!-- @cmd:ref = /codeBook/fileDscr/@ID -->
+            <Subresource cmd:ref="IDGradiva1880">
+                <SubresourceDescription>
+                    <!-- /codeBook/fileDscr/fileTxt/fileName -->
+                    <label xml:lang="sl-SI">RAZJED10 - Osrednjeslovenska regija - transkript (fokusna skupina) [data file], </label>
+                    <!-- /codeBook/fileDscr/dimensns/caseQnty -->
+                    <description>caseQnty: 7</description>
+                </SubresourceDescription>
+            </Subresource>
+            <!-- @cmd:ref = /codeBook/fileDscr/@ID -->
+            <Subresource cmd:ref="IDGradiva1882">
+                <SubresourceDescription>
+                    <!-- /codeBook/fileDscr/fileTxt/fileName -->
+                    <label xml:lang="sl-SI">RAZJED10 - Pomurje - transkript (fokusna skupina) [data file], 2010</label>
+                    <!-- /codeBook/fileDscr/dimensns/caseQnty -->
+                    <description>caseQnty: 1</description>
+                </SubresourceDescription>
             </Subresource>
         </ADP-DDI>
     </cmd:Components>
 
-    <!-- excluded -->
-
+    <!-- omitted -->
+    
     <!--
-<sumDscr source="producer">
-    <anlyUnit source="producer">High-technological enterprises (small and medium-sized), support institutions (incubators, technological parks, developemental agencies, ...)</anlyUnit>
-    <universe clusion="I" xml:lang="en-GB" source="producer">Entrepreneurs and representatives of support institutions.</universe>
--->
-
+    <sumDscr source="producer">
+        <anlyUnit source="producer">High-technological enterprises (small and medium-sized), support institutions (incubators, technological parks, developemental agencies, ...)</anlyUnit>
+        <universe clusion="I" xml:lang="en-GB" source="producer">Entrepreneurs and representatives of support institutions.</universe>
+    -->
+    
     <!--
-<method source="producer">
-  <dataColl source="producer">
-    <timeMeth xml:lang="en-GB" source="producer">Cross-section</timeMeth>
-    <dataCollector abbr="IRSA" xml:lang="en-GB" source="producer">Inštitut za razvojne in strateške analize = The institute for developmental and strategic analysis</dataCollector>
-    <dataCollector abbr="FUDŠ" xml:lang="sl-SI" source="producer">Fakulteta za uporabne družbene študije v Novi Gorici = School of Advanced Social Studies in Nova Gorica</dataCollector>
-    <sampProc xml:lang="en-GB" source="producer">Non random sampling, snow-ball sampling.</sampProc>
-    <collMode xml:lang="en-GB" source="producer">Personal semi-structured interview, focus group.</collMode>
-    <resInstru xml:lang="en-GB" source="producer">Semi-structured interview.</resInstru>
-    <cleanOps xml:lang="en-GB" source="producer">The data were cleaned for out of range values before deposited.</cleanOps>
-  </dataColl>
-  <stdyClas xml:lang="en-GB" type="ADP" source="producer">8: theoretically or practically important studies, studies that fill the research gap or has many implications for a wide range of practical problems, long term scholarly value</stdyClas>
-</method>
--->
+    <method source="producer">
+      <dataColl source="producer">
+        <timeMeth xml:lang="en-GB" source="producer">Cross-section</timeMeth>
+        <dataCollector abbr="IRSA" xml:lang="en-GB" source="producer">Inštitut za razvojne in strateške analize = The institute for developmental and strategic analysis</dataCollector>
+        <dataCollector abbr="FUDŠ" xml:lang="sl-SI" source="producer">Fakulteta za uporabne družbene študije v Novi Gorici = School of Advanced Social Studies in Nova Gorica</dataCollector>
+        <sampProc xml:lang="en-GB" source="producer">Non random sampling, snow-ball sampling.</sampProc>
+        <collMode xml:lang="en-GB" source="producer">Personal semi-structured interview, focus group.</collMode>
+        <resInstru xml:lang="en-GB" source="producer">Semi-structured interview.</resInstru>
+        <cleanOps xml:lang="en-GB" source="producer">The data were cleaned for out of range values before deposited.</cleanOps>
+      </dataColl>
+      <stdyClas xml:lang="en-GB" type="ADP" source="producer">8: theoretically or practically important studies, studies that fill the research gap or has many implications for a wide range of practical problems, long term scholarly value</stdyClas>
+    </method>
+    -->
+        
+    <!-- 
+      <dataDscr source="producer">
+        <var ID="V1" name="V1" files="F1" intrvl="discrete" source="producer" wgt="not-wgt">
+          <location width="8" source="producer"/>
+          <labl source="producer">ADP IDNo</labl>
+          <catgry missing="N" source="producer">
+            <catValu source="producer">razjed10</catValu>
+          </catgry>
+          <varFormat type="character" schema="other" source="producer" category="other"/>
+          <notes source="producer">There is no direct access to data for this study. Please, contact ADP for further details about data availability!</notes>
+        </var>
+      </dataDscr>
+    -->
 
 </cmd:CMD>
