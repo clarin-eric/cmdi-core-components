@@ -5,6 +5,7 @@
 * [Bazaar 2020 slides](bazaar2020.pdf) (PDF)
 * [Overview of components and profiles currently in development](overview.md)
 * [Repository with sample records](https://github.com/clarin-eric/cmdi-core-components)
+* [General information about CMDI](https://www.clarin.eu/cmdi)
 
 ### Frequently asked questions
 
@@ -41,3 +42,7 @@ Yes, nothing stops you from combining core components with other components, for
 
 The core components are designed to be broadly applicable and therefore often allow for more information than might be applicable in a single use case. This does not mean that all fields within a component are mandatory or even necessarily recommended. By design, the core components “accept” relatively sparse information.
 In case the availability of certain elements is problematic at the metadata creation stage, for example in the case of manual metadata creation, we suggest hiding the ‘extraneous’ elements in the editing environment.
+
+### Contact
+
+Do you have any other questions or would like to contribute to the core components initiative? Let us know by sending a message to [cmdi@clarin.eu](mailto:cmdi@clarin.eu)!
