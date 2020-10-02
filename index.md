@@ -1,13 +1,11 @@
-## Core components for CLARIN metadata
-
-### Links
+## Links
 
 * [Bazaar 2020 slides](bazaar2020.pdf) (PDF)
 * [Overview of components and profiles currently in development](./overview)
 * [Repository with sample records](https://github.com/clarin-eric/cmdi-core-components)
 * [General information about CMDI](https://www.clarin.eu/cmdi)
 
-### Frequently asked questions
+## Frequently asked questions
 
 **What are core components, and why do we need them?**
 
