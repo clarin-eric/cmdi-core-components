@@ -1,4 +1,4 @@
-## Core Components for CLARIN metadata
+## Core components for CLARIN metadata
 
 ### Links
 
