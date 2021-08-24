@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/1"
+<cmd:CMD xmlns:dcr="http://www.isocat.org/ns/dcr"
+ xmlns:cmd="http://www.clarin.eu/cmd/1"
+ xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
  xmlns:cue="http://www.clarin.eu/cmd/cues/1"
  xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1"
- xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
- xmlns:dcr="http://www.isocat.org/ns/dcr"
- xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
+ xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd" CMDVersion="1.2">
     <cmd:Header>
@@ -17,12 +17,12 @@
     </cmd:Header>
     <cmd:Resources>
         <cmd:ResourceProxyList>
-            <cmd:ResourceProxy id="ID001">
-                <cmd:ResourceType mimetype="mimetype1">Metadata</cmd:ResourceType>
+            <cmd:ResourceProxy id="ID000">
+                <cmd:ResourceType mimetype="mimetype0">Metadata</cmd:ResourceType>
                 <cmd:ResourceRef>http://www.oxygenxml.com/</cmd:ResourceRef>
             </cmd:ResourceProxy>
-            <cmd:ResourceProxy id="ID003">
-                <cmd:ResourceType mimetype="mimetype3">Metadata</cmd:ResourceType>
+            <cmd:ResourceProxy id="ID001">
+                <cmd:ResourceType mimetype="mimetype1">Metadata</cmd:ResourceType>
                 <cmd:ResourceRef>http://www.oxygenxml.com/</cmd:ResourceRef>
             </cmd:ResourceProxy>
         </cmd:ResourceProxyList>
@@ -37,10 +37,10 @@
         <cmd:ResourceRelationList>
             <cmd:ResourceRelation>
                 <cmd:RelationType ConceptLink="http://www.oxygenxml.com/">RelationType0</cmd:RelationType>
-                <cmd:Resource ref="ID002">
+                <cmd:Resource ref="ID001">
                     <cmd:Role ConceptLink="http://www.oxygenxml.com/">Role0</cmd:Role>
                 </cmd:Resource>
-                <cmd:Resource ref="ID000">
+                <cmd:Resource ref="ID001">
                     <cmd:Role ConceptLink="http://www.oxygenxml.com/">Role1</cmd:Role>
                 </cmd:Resource>
             </cmd:ResourceRelation>
@@ -49,7 +49,7 @@
                 <cmd:Resource ref="ID000">
                     <cmd:Role ConceptLink="http://www.oxygenxml.com/">Role2</cmd:Role>
                 </cmd:Resource>
-                <cmd:Resource ref="ID003">
+                <cmd:Resource ref="ID001">
                     <cmd:Role ConceptLink="http://www.oxygenxml.com/">Role3</cmd:Role>
                 </cmd:Resource>
             </cmd:ResourceRelation>
@@ -60,454 +60,865 @@
         <cmd:IsPartOf>http://www.oxygenxml.com/</cmd:IsPartOf>
     </cmd:IsPartOfList>
     <cmd:Components>
-        <DataCiteRecord xml:base="http://www.oxygenxml.com/" cmd:ref="ID003">
-            <IdentificationInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762421">
-                <identifier type="DOI">http://www.oxygenxml.com/</identifier>
-                <identifier type="DOI">http://www.oxygenxml.com/</identifier>
-                <internalIdentifier type="type5">internalIdentifier0</internalIdentifier>
-                <internalIdentifier type="type7">internalIdentifier1</internalIdentifier>
-                <alternativeIdentifier type="type9">alternativeIdentifier0</alternativeIdentifier>
-                <alternativeIdentifier type="type11">alternativeIdentifier1</alternativeIdentifier>
-            </IdentificationInfo>
-            <TitleInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID003" cmd:ComponentId="clarin.eu:cr1:c_1595321762412">
-                <title xml:lang="en-US">title0</title>
-                <title xml:lang="en-US">title1</title>
-                <alternativeTitle xml:lang="en-US">alternativeTitle0</alternativeTitle>
-                <alternativeTitle xml:lang="en-US">alternativeTitle1</alternativeTitle>
-                <subtitle xml:lang="en-US">subtitle0</subtitle>
-                <subtitle xml:lang="en-US">subtitle1</subtitle>
-            </TitleInfo>
-            <Description xml:base="http://www.oxygenxml.com/" cmd:ref="ID003" cmd:ComponentId="clarin.eu:cr1:c_1595321762411">
-                <description xml:lang="en-US">description0</description>
-                <description xml:lang="en-US">description1</description>
-            </Description>
-            <ResourceType xml:base="http://www.oxygenxml.com/" cmd:ref="ID003" cmd:ComponentId="clarin.eu:cr1:c_1595321762403">
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <label xml:lang="en-US">label0</label>
-                <label xml:lang="en-US">label1</label>
-            </ResourceType>
-            <VersionInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID003" cmd:ComponentId="clarin.eu:cr1:c_1595321762424">
-                <versionIdentifier>versionIdentifier0</versionIdentifier>
-                <responsible>responsible0</responsible>
-                <responsible>responsible1</responsible>
-                <note xml:lang="en-US">note0</note>
-                <note xml:lang="en-US">note1</note>
-                <Description xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762411">
-                    <description xml:lang="en-US">description2</description>
-                    <description xml:lang="en-US">description3</description>
-                </Description>
-                <Description xml:base="http://www.oxygenxml.com/" cmd:ref="ID002" cmd:ComponentId="clarin.eu:cr1:c_1595321762411">
-                    <description xml:lang="en-US">description4</description>
-                    <description xml:lang="en-US">description5</description>
-                </Description>
-                <Responsible xml:base="http://www.oxygenxml.com/" cmd:ref="ID000">
-                    <identifier>identifier0</identifier>
-                    <identifier>identifier1</identifier>
-                    <label xml:lang="en-US">label2</label>
-                    <label xml:lang="en-US">label3</label>
-                    <AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID002" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
-                    </AgentInfo>
-                </Responsible>
-                <Responsible xml:base="http://www.oxygenxml.com/" cmd:ref="ID002">
-                    <identifier>identifier2</identifier>
-                    <identifier>identifier3</identifier>
-                    <label xml:lang="en-US">label4</label>
-                    <label xml:lang="en-US">label5</label>
-                    <AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
-                    </AgentInfo>
-                </Responsible>
-            </VersionInfo>
-            <Language xml:base="http://www.oxygenxml.com/" cmd:ref="ID002" cmd:ComponentId="clarin.eu:cr1:c_1595321762414">
-                <name xml:lang="en-US">name0</name>
-                <name xml:lang="en-US">name1</name>
-                <code cmd:ValueConceptLink="http://www.oxygenxml.com/">code0</code>
-            </Language>
-            <Creator xml:base="http://www.oxygenxml.com/" cmd:ref="ID003" cmd:ComponentId="clarin.eu:cr1:c_1595321762404">
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <label xml:lang="en-US">label6</label>
-                <label xml:lang="en-US">label7</label>
-                <role>role0</role>
-                <role>role1</role>
-                <AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
-                    <PersonInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID003" cmd:ComponentId="clarin.eu:cr1:c_1595321762426">
-                        <name>name2</name>
-                    </PersonInfo>
-                    <OrganisationInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID003" cmd:ComponentId="clarin.eu:cr1:c_1595321762452">
-                        <name xml:lang="en-US">name3</name>
-                        <name xml:lang="en-US">name4</name>
-                    </OrganisationInfo>
-                </AgentInfo>
-            </Creator>
-            <Contributor xml:base="http://www.oxygenxml.com/" cmd:ref="ID002" cmd:ComponentId="clarin.eu:cr1:c_1595321762453">
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <label xml:lang="en-US">label8</label>
-                <label xml:lang="en-US">label9</label>
-                <role>role2</role>
-                <role>role3</role>
-                <AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
-                    <PersonInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762426">
-                        <name>name5</name>
-                    </PersonInfo>
-                    <OrganisationInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID002" cmd:ComponentId="clarin.eu:cr1:c_1595321762452">
-                        <name xml:lang="en-US">name6</name>
-                        <name xml:lang="en-US">name7</name>
-                    </OrganisationInfo>
-                </AgentInfo>
-            </Contributor>
-            <ProvenanceInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762423">
-                <Creation xml:base="http://www.oxygenxml.com/" cmd:ref="ID002">
-                    <ActivityInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762422">
-                        <When xml:base="http://www.oxygenxml.com/" cmd:ref="ID003">
-                        </When>
-                    </ActivityInfo>
-                    <ActivityInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID002" cmd:ComponentId="clarin.eu:cr1:c_1595321762422">
-                        <When xml:base="http://www.oxygenxml.com/" cmd:ref="ID002">
-                        </When>
-                    </ActivityInfo>
-                </Creation>
-                <Collection xml:base="http://www.oxygenxml.com/" cmd:ref="ID002">
-                    <ActivityInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID003" cmd:ComponentId="clarin.eu:cr1:c_1595321762422">
-                        <When xml:base="http://www.oxygenxml.com/" cmd:ref="ID000">
-                        </When>
-                    </ActivityInfo>
-                    <ActivityInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID002" cmd:ComponentId="clarin.eu:cr1:c_1595321762422">
-                        <When xml:base="http://www.oxygenxml.com/" cmd:ref="ID002">
-                        </When>
-                    </ActivityInfo>
-                </Collection>
-                <Publication xml:base="http://www.oxygenxml.com/" cmd:ref="ID002">
-                    <ActivityInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762422">
-                        <When xml:base="http://www.oxygenxml.com/" cmd:ref="ID000">
-                        </When>
-                    </ActivityInfo>
-                    <ActivityInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762422">
-                        <When xml:base="http://www.oxygenxml.com/" cmd:ref="ID003">
-                        </When>
-                    </ActivityInfo>
-                </Publication>
-                <Activity xml:base="http://www.oxygenxml.com/" cmd:ref="ID003">
-                    <identifier>http://www.oxygenxml.com/</identifier>
-                    <identifier>http://www.oxygenxml.com/</identifier>
-                    <label xml:lang="en-US">label10</label>
-                    <label xml:lang="en-US">label11</label>
-                    <note xml:lang="en-US">note2</note>
-                    <note xml:lang="en-US">note3</note>
-                    <ActivityInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762422">
-                        <When xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
-                        </When>
-                    </ActivityInfo>
-                    <ActivityInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762422">
-                        <When xml:base="http://www.oxygenxml.com/" cmd:ref="ID002">
-                        </When>
-                    </ActivityInfo>
-                </Activity>
-                <Activity xml:base="http://www.oxygenxml.com/" cmd:ref="ID000">
-                    <identifier>http://www.oxygenxml.com/</identifier>
-                    <identifier>http://www.oxygenxml.com/</identifier>
-                    <label xml:lang="en-US">label12</label>
-                    <label xml:lang="en-US">label13</label>
-                    <note xml:lang="en-US">note4</note>
-                    <note xml:lang="en-US">note5</note>
-                    <ActivityInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID003" cmd:ComponentId="clarin.eu:cr1:c_1595321762422">
-                        <When xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
-                        </When>
-                    </ActivityInfo>
-                    <ActivityInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762422">
-                        <When xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
-                        </When>
-                    </ActivityInfo>
-                </Activity>
-            </ProvenanceInfo>
-            <Subresource xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762415">
-                <SubresourceDescription xml:base="http://www.oxygenxml.com/" cmd:ref="ID002" cmd:ComponentId="clarin.eu:cr1:c_1595321762413">
-                    <label xml:lang="en-US">label14</label>
-                    <label xml:lang="en-US">label15</label>
-                    <description xml:lang="en-US">description6</description>
-                    <description xml:lang="en-US">description7</description>
-                    <bibliographicCitation>bibliographicCitation0</bibliographicCitation>
-                    <IdentificationInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762421">
-                        <identifier type="DOI">http://www.oxygenxml.com/</identifier>
-                        <identifier type="DOI">http://www.oxygenxml.com/</identifier>
-                    </IdentificationInfo>
-                    <Language xml:base="http://www.oxygenxml.com/" cmd:ref="ID002" cmd:ComponentId="clarin.eu:cr1:c_1595321762414">
-                        <name xml:lang="en-US">name8</name>
-                        <name xml:lang="en-US">name9</name>
-                        <code cmd:ValueConceptLink="http://www.oxygenxml.com/">code1</code>
-                    </Language>
-                    <Language xml:base="http://www.oxygenxml.com/" cmd:ref="ID002" cmd:ComponentId="clarin.eu:cr1:c_1595321762414">
-                        <name xml:lang="en-US">name10</name>
-                        <name xml:lang="en-US">name11</name>
-                        <code cmd:ValueConceptLink="http://www.oxygenxml.com/">code2</code>
-                    </Language>
-                    <VersionInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762424">
-                    </VersionInfo>
-                </SubresourceDescription>
-                <SubresourceTechnicalInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762405">
-                    <type>type0</type>
-                    <type>type1</type>
-                    <mediaType>mediaType0</mediaType>
-                    <size SizeUnit="byte">0</size>
-                    <checksum scheme="scheme1">checksum0</checksum>
-                    <checksum scheme="scheme3">checksum1</checksum>
-                </SubresourceTechnicalInfo>
-                <AccessInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID002" cmd:ComponentId="clarin.eu:cr1:c_1595321762454">
-                    <accessRights>openAccess</accessRights>
-                    <accessRequirement>authenticationRequired</accessRequirement>
-                    <accessRequirement>authenticationRequired</accessRequirement>
-                    <condition xml:lang="en-US">condition0</condition>
-                    <condition xml:lang="en-US">condition1</condition>
-                    <disclaimer xml:lang="en-US">disclaimer0</disclaimer>
-                    <disclaimer xml:lang="en-US">disclaimer1</disclaimer>
-                    <otherAccessInfo type="type17" xml:lang="en-US">otherAccessInfo0</otherAccessInfo>
-                    <otherAccessInfo type="type19" xml:lang="en-US">otherAccessInfo1</otherAccessInfo>
-                    <Licence xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762457">
-                        <label xml:lang="en-US">label16</label>
-                        <label xml:lang="en-US">label17</label>
-                    </Licence>
-                    <Licence xml:base="http://www.oxygenxml.com/" cmd:ref="ID002" cmd:ComponentId="clarin.eu:cr1:c_1595321762457">
-                        <label xml:lang="en-US">label18</label>
-                        <label xml:lang="en-US">label19</label>
-                    </Licence>
-                    <IntellectualPropertyRightsHolder xml:base="http://www.oxygenxml.com/" cmd:ref="ID003">
-                    </IntellectualPropertyRightsHolder>
-                    <IntellectualPropertyRightsHolder xml:base="http://www.oxygenxml.com/" cmd:ref="ID003">
-                    </IntellectualPropertyRightsHolder>
-                    <Contact xml:base="http://www.oxygenxml.com/" cmd:ref="ID003">
-                        <AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID002" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
-                        </AgentInfo>
-                    </Contact>
-                    <Contact xml:base="http://www.oxygenxml.com/" cmd:ref="ID000">
-                        <AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID002" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
-                        </AgentInfo>
-                    </Contact>
-                </AccessInfo>
-            </Subresource>
-            <AccessInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID003" cmd:ComponentId="clarin.eu:cr1:c_1595321762454">
-                <accessRights>openAccess</accessRights>
-                <accessRequirement>authenticationRequired</accessRequirement>
-                <accessRequirement>authenticationRequired</accessRequirement>
-                <condition xml:lang="en-US">condition2</condition>
-                <condition xml:lang="en-US">condition3</condition>
-                <disclaimer xml:lang="en-US">disclaimer2</disclaimer>
-                <disclaimer xml:lang="en-US">disclaimer3</disclaimer>
-                <otherAccessInfo type="type21" xml:lang="en-US">otherAccessInfo2</otherAccessInfo>
-                <otherAccessInfo type="type23" xml:lang="en-US">otherAccessInfo3</otherAccessInfo>
-                <Licence xml:base="http://www.oxygenxml.com/" cmd:ref="ID003" cmd:ComponentId="clarin.eu:cr1:c_1595321762457">
-                    <identifier>identifier4</identifier>
-                    <identifier>identifier5</identifier>
-                    <label xml:lang="en-US">label20</label>
-                    <label xml:lang="en-US">label21</label>
-                    <url>http://www.oxygenxml.com/</url>
-                    <Description xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762411">
-                        <description xml:lang="en-US">description8</description>
-                        <description xml:lang="en-US">description9</description>
-                    </Description>
-                    <Description xml:base="http://www.oxygenxml.com/" cmd:ref="ID002" cmd:ComponentId="clarin.eu:cr1:c_1595321762411">
-                        <description xml:lang="en-US">description10</description>
-                        <description xml:lang="en-US">description11</description>
-                    </Description>
-                </Licence>
-                <Licence xml:base="http://www.oxygenxml.com/" cmd:ref="ID002" cmd:ComponentId="clarin.eu:cr1:c_1595321762457">
-                    <identifier>identifier6</identifier>
-                    <identifier>identifier7</identifier>
-                    <label xml:lang="en-US">label22</label>
-                    <label xml:lang="en-US">label23</label>
-                    <url>http://www.oxygenxml.com/</url>
-                    <Description xml:base="http://www.oxygenxml.com/" cmd:ref="ID003" cmd:ComponentId="clarin.eu:cr1:c_1595321762411">
-                        <description xml:lang="en-US">description12</description>
-                        <description xml:lang="en-US">description13</description>
-                    </Description>
-                    <Description xml:base="http://www.oxygenxml.com/" cmd:ref="ID003" cmd:ComponentId="clarin.eu:cr1:c_1595321762411">
-                        <description xml:lang="en-US">description14</description>
-                        <description xml:lang="en-US">description15</description>
-                    </Description>
-                </Licence>
-                <IntellectualPropertyRightsHolder xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
-                    <identifier>http://www.oxygenxml.com/</identifier>
-                    <identifier>http://www.oxygenxml.com/</identifier>
-                    <label xml:lang="en-US">label24</label>
-                    <label xml:lang="en-US">label25</label>
-                    <AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID003" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
-                    </AgentInfo>
-                </IntellectualPropertyRightsHolder>
-                <IntellectualPropertyRightsHolder xml:base="http://www.oxygenxml.com/" cmd:ref="ID000">
-                    <identifier>http://www.oxygenxml.com/</identifier>
-                    <identifier>http://www.oxygenxml.com/</identifier>
-                    <label xml:lang="en-US">label26</label>
-                    <label xml:lang="en-US">label27</label>
-                    <AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
-                    </AgentInfo>
-                </IntellectualPropertyRightsHolder>
-                <Contact xml:base="http://www.oxygenxml.com/" cmd:ref="ID003">
-                    <identifier>http://www.oxygenxml.com/</identifier>
-                    <identifier>http://www.oxygenxml.com/</identifier>
-                    <label xml:lang="en-US">label28</label>
-                    <label xml:lang="en-US">label29</label>
-                    <Description xml:base="http://www.oxygenxml.com/" cmd:ref="ID003" cmd:ComponentId="clarin.eu:cr1:c_1595321762411">
-                        <description xml:lang="en-US">description16</description>
-                        <description xml:lang="en-US">description17</description>
-                    </Description>
-                    <AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
-                    </AgentInfo>
-                </Contact>
-                <Contact xml:base="http://www.oxygenxml.com/" cmd:ref="ID002">
-                    <identifier>http://www.oxygenxml.com/</identifier>
-                    <identifier>http://www.oxygenxml.com/</identifier>
-                    <label xml:lang="en-US">label30</label>
-                    <label xml:lang="en-US">label31</label>
-                    <Description xml:base="http://www.oxygenxml.com/" cmd:ref="ID003" cmd:ComponentId="clarin.eu:cr1:c_1595321762411">
-                        <description xml:lang="en-US">description18</description>
-                        <description xml:lang="en-US">description19</description>
-                    </Description>
-                    <AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
-                    </AgentInfo>
-                </Contact>
-            </AccessInfo>
-            <GeoLocation xml:base="http://www.oxygenxml.com/" cmd:ref="ID002" cmd:ComponentId="clarin.eu:cr1:c_1595321762418">
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <label xml:lang="en-US">label32</label>
-                <label xml:lang="en-US">label33</label>
-                <description xml:lang="en-US">description20</description>
-                <description xml:lang="en-US">description21</description>
-                <Country xml:base="http://www.oxygenxml.com/" cmd:ref="ID003" cmd:ComponentId="clarin.eu:cr1:c_1595321762419">
-                    <code>AD</code>
-                    <label xml:lang="en-US">label34</label>
-                    <label xml:lang="en-US">label35</label>
-                </Country>
-                <GeographicCoordinates xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
-                    <latitude>0</latitude>
-                    <longitude>0</longitude>
-                    <elevation>0</elevation>
-                </GeographicCoordinates>
-            </GeoLocation>
-            <FundingInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762429">
-                <Funding xml:base="http://www.oxygenxml.com/" cmd:ref="ID003">
-                    <grantNumber>grantNumber0</grantNumber>
-                    <label xml:lang="en-US">label36</label>
-                    <label xml:lang="en-US">label37</label>
-                    <FundingAgency xml:base="http://www.oxygenxml.com/" cmd:ref="ID000">
-                        <label xml:lang="en-US">label38</label>
-                        <label xml:lang="en-US">label39</label>
-                    </FundingAgency>
-                    <ActivityInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762422">
-                        <When xml:base="http://www.oxygenxml.com/" cmd:ref="ID000">
-                        </When>
-                    </ActivityInfo>
-                    <ActivityInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID003" cmd:ComponentId="clarin.eu:cr1:c_1595321762422">
-                        <When xml:base="http://www.oxygenxml.com/" cmd:ref="ID003">
-                        </When>
-                    </ActivityInfo>
-                </Funding>
-                <Funding xml:base="http://www.oxygenxml.com/" cmd:ref="ID000">
-                    <grantNumber>grantNumber1</grantNumber>
-                    <label xml:lang="en-US">label40</label>
-                    <label xml:lang="en-US">label41</label>
-                    <FundingAgency xml:base="http://www.oxygenxml.com/" cmd:ref="ID003">
-                        <label xml:lang="en-US">label42</label>
-                        <label xml:lang="en-US">label43</label>
-                    </FundingAgency>
-                    <ActivityInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID003" cmd:ComponentId="clarin.eu:cr1:c_1595321762422">
-                        <When xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
-                        </When>
-                    </ActivityInfo>
-                    <ActivityInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID002" cmd:ComponentId="clarin.eu:cr1:c_1595321762422">
-                        <When xml:base="http://www.oxygenxml.com/" cmd:ref="ID000">
-                        </When>
-                    </ActivityInfo>
-                </Funding>
-            </FundingInfo>
-            <RelatedResource xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762430">
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <label xml:lang="en-US">label44</label>
-                <label xml:lang="en-US">label45</label>
-                <location>http://www.oxygenxml.com/</location>
-                <location>http://www.oxygenxml.com/</location>
-                <TitleInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762412">
-                    <title xml:lang="en-US">title2</title>
-                    <title xml:lang="en-US">title3</title>
-                    <alternativeTitle xml:lang="en-US">alternativeTitle2</alternativeTitle>
-                    <alternativeTitle xml:lang="en-US">alternativeTitle3</alternativeTitle>
-                    <subtitle xml:lang="en-US">subtitle2</subtitle>
-                    <subtitle xml:lang="en-US">subtitle3</subtitle>
-                </TitleInfo>
-                <TitleInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID002" cmd:ComponentId="clarin.eu:cr1:c_1595321762412">
-                    <title xml:lang="en-US">title4</title>
-                    <title xml:lang="en-US">title5</title>
-                    <alternativeTitle xml:lang="en-US">alternativeTitle4</alternativeTitle>
-                    <alternativeTitle xml:lang="en-US">alternativeTitle5</alternativeTitle>
-                    <subtitle xml:lang="en-US">subtitle4</subtitle>
-                    <subtitle xml:lang="en-US">subtitle5</subtitle>
-                </TitleInfo>
-                <Description xml:base="http://www.oxygenxml.com/" cmd:ref="ID003" cmd:ComponentId="clarin.eu:cr1:c_1595321762411">
-                    <description xml:lang="en-US">description22</description>
-                    <description xml:lang="en-US">description23</description>
-                </Description>
-                <Description xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762411">
-                    <description xml:lang="en-US">description24</description>
-                    <description xml:lang="en-US">description25</description>
-                </Description>
-                <ResourceType xml:base="http://www.oxygenxml.com/" cmd:ref="ID002" cmd:ComponentId="clarin.eu:cr1:c_1595321762403">
-                    <identifier>http://www.oxygenxml.com/</identifier>
-                    <identifier>http://www.oxygenxml.com/</identifier>
-                    <label xml:lang="en-US">label46</label>
-                    <label xml:lang="en-US">label47</label>
-                </ResourceType>
-                <ResourceType xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762403">
-                    <identifier>http://www.oxygenxml.com/</identifier>
-                    <identifier>http://www.oxygenxml.com/</identifier>
-                    <label xml:lang="en-US">label48</label>
-                    <label xml:lang="en-US">label49</label>
-                </ResourceType>
-                <CitationInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID003" cmd:ComponentId="clarin.eu:cr1:c_1595321762416">
-                    <bibliographicCitation format="format1">bibliographicCitation1</bibliographicCitation>
-                    <bibliographicCitation format="format3">bibliographicCitation2</bibliographicCitation>
-                </CitationInfo>
-                <Creator xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762404">
-                    <identifier>http://www.oxygenxml.com/</identifier>
-                    <identifier>http://www.oxygenxml.com/</identifier>
-                    <label xml:lang="en-US">label50</label>
-                    <label xml:lang="en-US">label51</label>
-                    <role>role4</role>
-                    <role>role5</role>
-                    <AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
-                    </AgentInfo>
-                </Creator>
-                <Creator xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762404">
-                    <identifier>http://www.oxygenxml.com/</identifier>
-                    <identifier>http://www.oxygenxml.com/</identifier>
-                    <label xml:lang="en-US">label52</label>
-                    <label xml:lang="en-US">label53</label>
-                    <role>role6</role>
-                    <role>role7</role>
-                    <AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
-                    </AgentInfo>
-                </Creator>
-                <Contributor xml:base="http://www.oxygenxml.com/" cmd:ref="ID002" cmd:ComponentId="clarin.eu:cr1:c_1595321762453">
-                    <identifier>http://www.oxygenxml.com/</identifier>
-                    <identifier>http://www.oxygenxml.com/</identifier>
-                    <label xml:lang="en-US">label54</label>
-                    <label xml:lang="en-US">label55</label>
-                    <role>role8</role>
-                    <role>role9</role>
-                    <AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
-                    </AgentInfo>
-                </Contributor>
-                <Contributor xml:base="http://www.oxygenxml.com/" cmd:ref="ID003" cmd:ComponentId="clarin.eu:cr1:c_1595321762453">
-                    <identifier>http://www.oxygenxml.com/</identifier>
-                    <identifier>http://www.oxygenxml.com/</identifier>
-                    <label xml:lang="en-US">label56</label>
-                    <label xml:lang="en-US">label57</label>
-                    <role>role10</role>
-                    <role>role11</role>
-                    <AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID002" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
-                    </AgentInfo>
-                </Contributor>
-            </RelatedResource>
-        </DataCiteRecord>
+        <cmdp:DataCiteRecord xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
+            <cmdp:IdentificationInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762421">
+                <cmdp:identifier type="DOI">http://www.oxygenxml.com/</cmdp:identifier>
+                <cmdp:identifier type="DOI">http://www.oxygenxml.com/</cmdp:identifier>
+                <cmdp:internalIdentifier type="type2">internalIdentifier0</cmdp:internalIdentifier>
+                <cmdp:internalIdentifier type="type3">internalIdentifier1</cmdp:internalIdentifier>
+                <cmdp:alternativeIdentifier type="type4">alternativeIdentifier0</cmdp:alternativeIdentifier>
+                <cmdp:alternativeIdentifier type="type5">alternativeIdentifier1</cmdp:alternativeIdentifier>
+            </cmdp:IdentificationInfo>
+            <cmdp:TitleInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762412">
+                <cmdp:title xml:lang="en-US">title0</cmdp:title>
+                <cmdp:title xml:lang="en-US">title1</cmdp:title>
+                <cmdp:alternativeTitle xml:lang="en-US">alternativeTitle0</cmdp:alternativeTitle>
+                <cmdp:alternativeTitle xml:lang="en-US">alternativeTitle1</cmdp:alternativeTitle>
+                <cmdp:subtitle xml:lang="en-US">subtitle0</cmdp:subtitle>
+                <cmdp:subtitle xml:lang="en-US">subtitle1</cmdp:subtitle>
+            </cmdp:TitleInfo>
+            <cmdp:Description xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762411">
+                <cmdp:description xml:lang="en-US">description0</cmdp:description>
+                <cmdp:description xml:lang="en-US">description1</cmdp:description>
+            </cmdp:Description>
+            <cmdp:Description xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762411">
+                <cmdp:description xml:lang="en-US">description2</cmdp:description>
+                <cmdp:description xml:lang="en-US">description3</cmdp:description>
+            </cmdp:Description>
+            <cmdp:ResourceType xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762403">
+                <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                <cmdp:label xml:lang="en-US">label0</cmdp:label>
+                <cmdp:label xml:lang="en-US">label1</cmdp:label>
+            </cmdp:ResourceType>
+            <cmdp:ResourceType xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762403">
+                <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                <cmdp:label xml:lang="en-US">label2</cmdp:label>
+                <cmdp:label xml:lang="en-US">label3</cmdp:label>
+            </cmdp:ResourceType>
+            <cmdp:VersionInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762424">
+                <cmdp:versionIdentifier>versionIdentifier0</cmdp:versionIdentifier>
+                <cmdp:responsible>responsible0</cmdp:responsible>
+                <cmdp:responsible>responsible1</cmdp:responsible>
+                <cmdp:note xml:lang="en-US">note0</cmdp:note>
+                <cmdp:note xml:lang="en-US">note1</cmdp:note>
+                <cmdp:Description xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762411">
+                    <cmdp:description xml:lang="en-US">description4</cmdp:description>
+                    <cmdp:description xml:lang="en-US">description5</cmdp:description>
+                </cmdp:Description>
+                <cmdp:Description xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762411">
+                    <cmdp:description xml:lang="en-US">description6</cmdp:description>
+                    <cmdp:description xml:lang="en-US">description7</cmdp:description>
+                </cmdp:Description>
+                <cmdp:Responsible xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
+                    <cmdp:identifier>identifier0</cmdp:identifier>
+                    <cmdp:identifier>identifier1</cmdp:identifier>
+                    <cmdp:label xml:lang="en-US">label4</cmdp:label>
+                    <cmdp:label xml:lang="en-US">label5</cmdp:label>
+                    <cmdp:AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
+                    </cmdp:AgentInfo>
+                </cmdp:Responsible>
+                <cmdp:Responsible xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
+                    <cmdp:identifier>identifier2</cmdp:identifier>
+                    <cmdp:identifier>identifier3</cmdp:identifier>
+                    <cmdp:label xml:lang="en-US">label6</cmdp:label>
+                    <cmdp:label xml:lang="en-US">label7</cmdp:label>
+                    <cmdp:AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
+                    </cmdp:AgentInfo>
+                </cmdp:Responsible>
+            </cmdp:VersionInfo>
+            <cmdp:Language xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762414">
+                <cmdp:name xml:lang="en-US">name0</cmdp:name>
+                <cmdp:name xml:lang="en-US">name1</cmdp:name>
+                <cmdp:code cmd:ValueConceptLink="http://www.oxygenxml.com/">code0</cmdp:code>
+            </cmdp:Language>
+            <cmdp:Language xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762414">
+                <cmdp:name xml:lang="en-US">name2</cmdp:name>
+                <cmdp:name xml:lang="en-US">name3</cmdp:name>
+                <cmdp:code cmd:ValueConceptLink="http://www.oxygenxml.com/">code1</cmdp:code>
+            </cmdp:Language>
+            <cmdp:Subject xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762455">
+                <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                <cmdp:label xml:lang="en-US">label8</cmdp:label>
+                <cmdp:label xml:lang="en-US">label9</cmdp:label>
+                <cmdp:scheme xml:lang="en-US">scheme0</cmdp:scheme>
+                <cmdp:scheme xml:lang="en-US">scheme1</cmdp:scheme>
+                <cmdp:schemeURI>http://www.oxygenxml.com/</cmdp:schemeURI>
+            </cmdp:Subject>
+            <cmdp:Subject xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762455">
+                <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                <cmdp:label xml:lang="en-US">label10</cmdp:label>
+                <cmdp:label xml:lang="en-US">label11</cmdp:label>
+                <cmdp:scheme xml:lang="en-US">scheme2</cmdp:scheme>
+                <cmdp:scheme xml:lang="en-US">scheme3</cmdp:scheme>
+                <cmdp:schemeURI>http://www.oxygenxml.com/</cmdp:schemeURI>
+            </cmdp:Subject>
+            <cmdp:Creator xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762404">
+                <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                <cmdp:label xml:lang="en-US">label12</cmdp:label>
+                <cmdp:label xml:lang="en-US">label13</cmdp:label>
+                <cmdp:role>role0</cmdp:role>
+                <cmdp:role>role1</cmdp:role>
+                <cmdp:AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
+                    <cmdp:PersonInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762426">
+                        <cmdp:name>name4</cmdp:name>
+                    </cmdp:PersonInfo>
+                    <cmdp:OrganisationInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762452">
+                        <cmdp:name xml:lang="en-US">name5</cmdp:name>
+                        <cmdp:name xml:lang="en-US">name6</cmdp:name>
+                    </cmdp:OrganisationInfo>
+                </cmdp:AgentInfo>
+            </cmdp:Creator>
+            <cmdp:Creator xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762404">
+                <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                <cmdp:label xml:lang="en-US">label14</cmdp:label>
+                <cmdp:label xml:lang="en-US">label15</cmdp:label>
+                <cmdp:role>role2</cmdp:role>
+                <cmdp:role>role3</cmdp:role>
+                <cmdp:AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
+                    <cmdp:PersonInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762426">
+                        <cmdp:name>name7</cmdp:name>
+                    </cmdp:PersonInfo>
+                    <cmdp:OrganisationInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762452">
+                        <cmdp:name xml:lang="en-US">name8</cmdp:name>
+                        <cmdp:name xml:lang="en-US">name9</cmdp:name>
+                    </cmdp:OrganisationInfo>
+                </cmdp:AgentInfo>
+            </cmdp:Creator>
+            <cmdp:Contributor xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762453">
+                <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                <cmdp:label xml:lang="en-US">label16</cmdp:label>
+                <cmdp:label xml:lang="en-US">label17</cmdp:label>
+                <cmdp:role>role4</cmdp:role>
+                <cmdp:role>role5</cmdp:role>
+                <cmdp:AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
+                    <cmdp:PersonInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762426">
+                        <cmdp:name>name10</cmdp:name>
+                    </cmdp:PersonInfo>
+                    <cmdp:OrganisationInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762452">
+                        <cmdp:name xml:lang="en-US">name11</cmdp:name>
+                        <cmdp:name xml:lang="en-US">name12</cmdp:name>
+                    </cmdp:OrganisationInfo>
+                </cmdp:AgentInfo>
+            </cmdp:Contributor>
+            <cmdp:Contributor xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762453">
+                <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                <cmdp:label xml:lang="en-US">label18</cmdp:label>
+                <cmdp:label xml:lang="en-US">label19</cmdp:label>
+                <cmdp:role>role6</cmdp:role>
+                <cmdp:role>role7</cmdp:role>
+                <cmdp:AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
+                    <cmdp:PersonInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762426">
+                        <cmdp:name>name13</cmdp:name>
+                    </cmdp:PersonInfo>
+                    <cmdp:OrganisationInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762452">
+                        <cmdp:name xml:lang="en-US">name14</cmdp:name>
+                        <cmdp:name xml:lang="en-US">name15</cmdp:name>
+                    </cmdp:OrganisationInfo>
+                </cmdp:AgentInfo>
+            </cmdp:Contributor>
+            <cmdp:ProvenanceInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762423">
+                <cmdp:Creation xml:base="http://www.oxygenxml.com/" cmd:ref="ID000">
+                    <cmdp:ActivityInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762422">
+                        <cmdp:When xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
+                        </cmdp:When>
+                    </cmdp:ActivityInfo>
+                    <cmdp:ActivityInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762422">
+                        <cmdp:When xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
+                        </cmdp:When>
+                    </cmdp:ActivityInfo>
+                </cmdp:Creation>
+                <cmdp:Collection xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
+                    <cmdp:ActivityInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762422">
+                        <cmdp:When xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
+                        </cmdp:When>
+                    </cmdp:ActivityInfo>
+                    <cmdp:ActivityInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762422">
+                        <cmdp:When xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
+                        </cmdp:When>
+                    </cmdp:ActivityInfo>
+                </cmdp:Collection>
+                <cmdp:Publication xml:base="http://www.oxygenxml.com/" cmd:ref="ID000">
+                    <cmdp:ActivityInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762422">
+                        <cmdp:When xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
+                        </cmdp:When>
+                    </cmdp:ActivityInfo>
+                    <cmdp:ActivityInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762422">
+                        <cmdp:When xml:base="http://www.oxygenxml.com/" cmd:ref="ID000">
+                        </cmdp:When>
+                    </cmdp:ActivityInfo>
+                </cmdp:Publication>
+                <cmdp:Activity xml:base="http://www.oxygenxml.com/" cmd:ref="ID000">
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:label xml:lang="en-US">label20</cmdp:label>
+                    <cmdp:label xml:lang="en-US">label21</cmdp:label>
+                    <cmdp:note xml:lang="en-US">note2</cmdp:note>
+                    <cmdp:note xml:lang="en-US">note3</cmdp:note>
+                    <cmdp:ActivityInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762422">
+                        <cmdp:When xml:base="http://www.oxygenxml.com/" cmd:ref="ID000">
+                        </cmdp:When>
+                    </cmdp:ActivityInfo>
+                    <cmdp:ActivityInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762422">
+                        <cmdp:When xml:base="http://www.oxygenxml.com/" cmd:ref="ID000">
+                        </cmdp:When>
+                    </cmdp:ActivityInfo>
+                </cmdp:Activity>
+                <cmdp:Activity xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:label xml:lang="en-US">label22</cmdp:label>
+                    <cmdp:label xml:lang="en-US">label23</cmdp:label>
+                    <cmdp:note xml:lang="en-US">note4</cmdp:note>
+                    <cmdp:note xml:lang="en-US">note5</cmdp:note>
+                    <cmdp:ActivityInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762422">
+                        <cmdp:When xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
+                        </cmdp:When>
+                    </cmdp:ActivityInfo>
+                    <cmdp:ActivityInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762422">
+                        <cmdp:When xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
+                        </cmdp:When>
+                    </cmdp:ActivityInfo>
+                </cmdp:Activity>
+            </cmdp:ProvenanceInfo>
+            <cmdp:Subresource xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762415">
+                <cmdp:SubresourceDescription xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762413">
+                    <cmdp:label xml:lang="en-US">label24</cmdp:label>
+                    <cmdp:label xml:lang="en-US">label25</cmdp:label>
+                    <cmdp:description xml:lang="en-US">description8</cmdp:description>
+                    <cmdp:description xml:lang="en-US">description9</cmdp:description>
+                    <cmdp:bibliographicCitation>bibliographicCitation0</cmdp:bibliographicCitation>
+                    <cmdp:IdentificationInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762421">
+                        <cmdp:identifier type="DOI">http://www.oxygenxml.com/</cmdp:identifier>
+                        <cmdp:identifier type="DOI">http://www.oxygenxml.com/</cmdp:identifier>
+                    </cmdp:IdentificationInfo>
+                    <cmdp:Language xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762414">
+                        <cmdp:name xml:lang="en-US">name16</cmdp:name>
+                        <cmdp:name xml:lang="en-US">name17</cmdp:name>
+                        <cmdp:code cmd:ValueConceptLink="http://www.oxygenxml.com/">code2</cmdp:code>
+                    </cmdp:Language>
+                    <cmdp:Language xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762414">
+                        <cmdp:name xml:lang="en-US">name18</cmdp:name>
+                        <cmdp:name xml:lang="en-US">name19</cmdp:name>
+                        <cmdp:code cmd:ValueConceptLink="http://www.oxygenxml.com/">code3</cmdp:code>
+                    </cmdp:Language>
+                    <cmdp:VersionInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762424">
+                    </cmdp:VersionInfo>
+                </cmdp:SubresourceDescription>
+                <cmdp:SubresourceTechnicalInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762405">
+                    <cmdp:type>type0</cmdp:type>
+                    <cmdp:type>type1</cmdp:type>
+                    <cmdp:mediaType>mediaType0</cmdp:mediaType>
+                    <cmdp:mediaType>mediaType1</cmdp:mediaType>
+                    <cmdp:size SizeUnit="byte">0</cmdp:size>
+                    <cmdp:checksum scheme="scheme0">checksum0</cmdp:checksum>
+                    <cmdp:checksum scheme="scheme1">checksum1</cmdp:checksum>
+                </cmdp:SubresourceTechnicalInfo>
+                <cmdp:AccessInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762454">
+                    <cmdp:accessRights>openAccess</cmdp:accessRights>
+                    <cmdp:accessRequirement>authenticationRequired</cmdp:accessRequirement>
+                    <cmdp:accessRequirement>authenticationRequired</cmdp:accessRequirement>
+                    <cmdp:condition xml:lang="en-US">condition0</cmdp:condition>
+                    <cmdp:condition xml:lang="en-US">condition1</cmdp:condition>
+                    <cmdp:disclaimer xml:lang="en-US">disclaimer0</cmdp:disclaimer>
+                    <cmdp:disclaimer xml:lang="en-US">disclaimer1</cmdp:disclaimer>
+                    <cmdp:otherAccessInfo type="type8" xml:lang="en-US">otherAccessInfo0</cmdp:otherAccessInfo>
+                    <cmdp:otherAccessInfo type="type9" xml:lang="en-US">otherAccessInfo1</cmdp:otherAccessInfo>
+                    <cmdp:Licence xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762457">
+                        <cmdp:label xml:lang="en-US">label26</cmdp:label>
+                        <cmdp:label xml:lang="en-US">label27</cmdp:label>
+                    </cmdp:Licence>
+                    <cmdp:Licence xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762457">
+                        <cmdp:label xml:lang="en-US">label28</cmdp:label>
+                        <cmdp:label xml:lang="en-US">label29</cmdp:label>
+                    </cmdp:Licence>
+                    <cmdp:IntellectualPropertyRightsHolder xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
+                    </cmdp:IntellectualPropertyRightsHolder>
+                    <cmdp:IntellectualPropertyRightsHolder xml:base="http://www.oxygenxml.com/" cmd:ref="ID000">
+                    </cmdp:IntellectualPropertyRightsHolder>
+                    <cmdp:Contact xml:base="http://www.oxygenxml.com/" cmd:ref="ID000">
+                        <cmdp:AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
+                        </cmdp:AgentInfo>
+                    </cmdp:Contact>
+                    <cmdp:Contact xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
+                        <cmdp:AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
+                        </cmdp:AgentInfo>
+                    </cmdp:Contact>
+                </cmdp:AccessInfo>
+            </cmdp:Subresource>
+            <cmdp:Subresource xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762415">
+                <cmdp:SubresourceDescription xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762413">
+                    <cmdp:label xml:lang="en-US">label30</cmdp:label>
+                    <cmdp:label xml:lang="en-US">label31</cmdp:label>
+                    <cmdp:description xml:lang="en-US">description10</cmdp:description>
+                    <cmdp:description xml:lang="en-US">description11</cmdp:description>
+                    <cmdp:bibliographicCitation>bibliographicCitation1</cmdp:bibliographicCitation>
+                    <cmdp:IdentificationInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762421">
+                        <cmdp:identifier type="DOI">http://www.oxygenxml.com/</cmdp:identifier>
+                        <cmdp:identifier type="DOI">http://www.oxygenxml.com/</cmdp:identifier>
+                    </cmdp:IdentificationInfo>
+                    <cmdp:Language xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762414">
+                        <cmdp:name xml:lang="en-US">name20</cmdp:name>
+                        <cmdp:name xml:lang="en-US">name21</cmdp:name>
+                        <cmdp:code cmd:ValueConceptLink="http://www.oxygenxml.com/">code4</cmdp:code>
+                    </cmdp:Language>
+                    <cmdp:Language xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762414">
+                        <cmdp:name xml:lang="en-US">name22</cmdp:name>
+                        <cmdp:name xml:lang="en-US">name23</cmdp:name>
+                        <cmdp:code cmd:ValueConceptLink="http://www.oxygenxml.com/">code5</cmdp:code>
+                    </cmdp:Language>
+                    <cmdp:VersionInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762424">
+                    </cmdp:VersionInfo>
+                </cmdp:SubresourceDescription>
+                <cmdp:SubresourceTechnicalInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762405">
+                    <cmdp:type>type2</cmdp:type>
+                    <cmdp:type>type3</cmdp:type>
+                    <cmdp:mediaType>mediaType2</cmdp:mediaType>
+                    <cmdp:mediaType>mediaType3</cmdp:mediaType>
+                    <cmdp:size SizeUnit="byte">0</cmdp:size>
+                    <cmdp:checksum scheme="scheme2">checksum2</cmdp:checksum>
+                    <cmdp:checksum scheme="scheme3">checksum3</cmdp:checksum>
+                </cmdp:SubresourceTechnicalInfo>
+                <cmdp:AccessInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762454">
+                    <cmdp:accessRights>openAccess</cmdp:accessRights>
+                    <cmdp:accessRequirement>authenticationRequired</cmdp:accessRequirement>
+                    <cmdp:accessRequirement>authenticationRequired</cmdp:accessRequirement>
+                    <cmdp:condition xml:lang="en-US">condition2</cmdp:condition>
+                    <cmdp:condition xml:lang="en-US">condition3</cmdp:condition>
+                    <cmdp:disclaimer xml:lang="en-US">disclaimer2</cmdp:disclaimer>
+                    <cmdp:disclaimer xml:lang="en-US">disclaimer3</cmdp:disclaimer>
+                    <cmdp:otherAccessInfo type="type12" xml:lang="en-US">otherAccessInfo2</cmdp:otherAccessInfo>
+                    <cmdp:otherAccessInfo type="type13" xml:lang="en-US">otherAccessInfo3</cmdp:otherAccessInfo>
+                    <cmdp:Licence xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762457">
+                        <cmdp:label xml:lang="en-US">label32</cmdp:label>
+                        <cmdp:label xml:lang="en-US">label33</cmdp:label>
+                    </cmdp:Licence>
+                    <cmdp:Licence xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762457">
+                        <cmdp:label xml:lang="en-US">label34</cmdp:label>
+                        <cmdp:label xml:lang="en-US">label35</cmdp:label>
+                    </cmdp:Licence>
+                    <cmdp:IntellectualPropertyRightsHolder xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
+                    </cmdp:IntellectualPropertyRightsHolder>
+                    <cmdp:IntellectualPropertyRightsHolder xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
+                    </cmdp:IntellectualPropertyRightsHolder>
+                    <cmdp:Contact xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
+                        <cmdp:AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
+                        </cmdp:AgentInfo>
+                    </cmdp:Contact>
+                    <cmdp:Contact xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
+                        <cmdp:AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
+                        </cmdp:AgentInfo>
+                    </cmdp:Contact>
+                </cmdp:AccessInfo>
+            </cmdp:Subresource>
+            <cmdp:AccessInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762454">
+                <cmdp:accessRights>openAccess</cmdp:accessRights>
+                <cmdp:accessRequirement>authenticationRequired</cmdp:accessRequirement>
+                <cmdp:accessRequirement>authenticationRequired</cmdp:accessRequirement>
+                <cmdp:condition xml:lang="en-US">condition4</cmdp:condition>
+                <cmdp:condition xml:lang="en-US">condition5</cmdp:condition>
+                <cmdp:disclaimer xml:lang="en-US">disclaimer4</cmdp:disclaimer>
+                <cmdp:disclaimer xml:lang="en-US">disclaimer5</cmdp:disclaimer>
+                <cmdp:otherAccessInfo type="type14" xml:lang="en-US">otherAccessInfo4</cmdp:otherAccessInfo>
+                <cmdp:otherAccessInfo type="type15" xml:lang="en-US">otherAccessInfo5</cmdp:otherAccessInfo>
+                <cmdp:Licence xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762457">
+                    <cmdp:identifier>identifier4</cmdp:identifier>
+                    <cmdp:identifier>identifier5</cmdp:identifier>
+                    <cmdp:label xml:lang="en-US">label36</cmdp:label>
+                    <cmdp:label xml:lang="en-US">label37</cmdp:label>
+                    <cmdp:url>http://www.oxygenxml.com/</cmdp:url>
+                    <cmdp:Description xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762411">
+                        <cmdp:description xml:lang="en-US">description12</cmdp:description>
+                        <cmdp:description xml:lang="en-US">description13</cmdp:description>
+                    </cmdp:Description>
+                    <cmdp:Description xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762411">
+                        <cmdp:description xml:lang="en-US">description14</cmdp:description>
+                        <cmdp:description xml:lang="en-US">description15</cmdp:description>
+                    </cmdp:Description>
+                </cmdp:Licence>
+                <cmdp:Licence xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762457">
+                    <cmdp:identifier>identifier6</cmdp:identifier>
+                    <cmdp:identifier>identifier7</cmdp:identifier>
+                    <cmdp:label xml:lang="en-US">label38</cmdp:label>
+                    <cmdp:label xml:lang="en-US">label39</cmdp:label>
+                    <cmdp:url>http://www.oxygenxml.com/</cmdp:url>
+                    <cmdp:Description xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762411">
+                        <cmdp:description xml:lang="en-US">description16</cmdp:description>
+                        <cmdp:description xml:lang="en-US">description17</cmdp:description>
+                    </cmdp:Description>
+                    <cmdp:Description xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762411">
+                        <cmdp:description xml:lang="en-US">description18</cmdp:description>
+                        <cmdp:description xml:lang="en-US">description19</cmdp:description>
+                    </cmdp:Description>
+                </cmdp:Licence>
+                <cmdp:IntellectualPropertyRightsHolder xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:label xml:lang="en-US">label40</cmdp:label>
+                    <cmdp:label xml:lang="en-US">label41</cmdp:label>
+                    <cmdp:AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
+                    </cmdp:AgentInfo>
+                </cmdp:IntellectualPropertyRightsHolder>
+                <cmdp:IntellectualPropertyRightsHolder xml:base="http://www.oxygenxml.com/" cmd:ref="ID000">
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:label xml:lang="en-US">label42</cmdp:label>
+                    <cmdp:label xml:lang="en-US">label43</cmdp:label>
+                    <cmdp:AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
+                    </cmdp:AgentInfo>
+                </cmdp:IntellectualPropertyRightsHolder>
+                <cmdp:Contact xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:label xml:lang="en-US">label44</cmdp:label>
+                    <cmdp:label xml:lang="en-US">label45</cmdp:label>
+                    <cmdp:Description xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762411">
+                        <cmdp:description xml:lang="en-US">description20</cmdp:description>
+                        <cmdp:description xml:lang="en-US">description21</cmdp:description>
+                    </cmdp:Description>
+                    <cmdp:AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
+                    </cmdp:AgentInfo>
+                </cmdp:Contact>
+                <cmdp:Contact xml:base="http://www.oxygenxml.com/" cmd:ref="ID000">
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:label xml:lang="en-US">label46</cmdp:label>
+                    <cmdp:label xml:lang="en-US">label47</cmdp:label>
+                    <cmdp:Description xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762411">
+                        <cmdp:description xml:lang="en-US">description22</cmdp:description>
+                        <cmdp:description xml:lang="en-US">description23</cmdp:description>
+                    </cmdp:Description>
+                    <cmdp:AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
+                    </cmdp:AgentInfo>
+                </cmdp:Contact>
+            </cmdp:AccessInfo>
+            <cmdp:GeoLocation xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762418">
+                <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                <cmdp:label xml:lang="en-US">label48</cmdp:label>
+                <cmdp:label xml:lang="en-US">label49</cmdp:label>
+                <cmdp:description xml:lang="en-US">description24</cmdp:description>
+                <cmdp:description xml:lang="en-US">description25</cmdp:description>
+                <cmdp:Country xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762419">
+                    <cmdp:code>AD</cmdp:code>
+                    <cmdp:label xml:lang="en-US">label50</cmdp:label>
+                    <cmdp:label xml:lang="en-US">label51</cmdp:label>
+                </cmdp:Country>
+                <cmdp:GeographicCoordinates xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
+                    <cmdp:latitude>0</cmdp:latitude>
+                    <cmdp:longitude>0</cmdp:longitude>
+                    <cmdp:elevation>0</cmdp:elevation>
+                </cmdp:GeographicCoordinates>
+            </cmdp:GeoLocation>
+            <cmdp:GeoLocation xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762418">
+                <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                <cmdp:label xml:lang="en-US">label52</cmdp:label>
+                <cmdp:label xml:lang="en-US">label53</cmdp:label>
+                <cmdp:description xml:lang="en-US">description26</cmdp:description>
+                <cmdp:description xml:lang="en-US">description27</cmdp:description>
+                <cmdp:Country xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762419">
+                    <cmdp:code>AD</cmdp:code>
+                    <cmdp:label xml:lang="en-US">label54</cmdp:label>
+                    <cmdp:label xml:lang="en-US">label55</cmdp:label>
+                </cmdp:Country>
+                <cmdp:GeographicCoordinates xml:base="http://www.oxygenxml.com/" cmd:ref="ID000">
+                    <cmdp:latitude>0</cmdp:latitude>
+                    <cmdp:longitude>0</cmdp:longitude>
+                    <cmdp:elevation>0</cmdp:elevation>
+                </cmdp:GeographicCoordinates>
+            </cmdp:GeoLocation>
+            <cmdp:FundingInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762429">
+                <cmdp:Funding xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
+                    <cmdp:grantNumber>grantNumber0</cmdp:grantNumber>
+                    <cmdp:label xml:lang="en-US">label56</cmdp:label>
+                    <cmdp:label xml:lang="en-US">label57</cmdp:label>
+                    <cmdp:FundingAgency xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
+                        <cmdp:label xml:lang="en-US">label58</cmdp:label>
+                        <cmdp:label xml:lang="en-US">label59</cmdp:label>
+                    </cmdp:FundingAgency>
+                    <cmdp:ActivityInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762422">
+                        <cmdp:When xml:base="http://www.oxygenxml.com/" cmd:ref="ID000">
+                        </cmdp:When>
+                    </cmdp:ActivityInfo>
+                    <cmdp:ActivityInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762422">
+                        <cmdp:When xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
+                        </cmdp:When>
+                    </cmdp:ActivityInfo>
+                </cmdp:Funding>
+                <cmdp:Funding xml:base="http://www.oxygenxml.com/" cmd:ref="ID000">
+                    <cmdp:grantNumber>grantNumber1</cmdp:grantNumber>
+                    <cmdp:label xml:lang="en-US">label60</cmdp:label>
+                    <cmdp:label xml:lang="en-US">label61</cmdp:label>
+                    <cmdp:FundingAgency xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
+                        <cmdp:label xml:lang="en-US">label62</cmdp:label>
+                        <cmdp:label xml:lang="en-US">label63</cmdp:label>
+                    </cmdp:FundingAgency>
+                    <cmdp:ActivityInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762422">
+                        <cmdp:When xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
+                        </cmdp:When>
+                    </cmdp:ActivityInfo>
+                    <cmdp:ActivityInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762422">
+                        <cmdp:When xml:base="http://www.oxygenxml.com/" cmd:ref="ID000">
+                        </cmdp:When>
+                    </cmdp:ActivityInfo>
+                </cmdp:Funding>
+            </cmdp:FundingInfo>
+            <cmdp:RelatedResource xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762430">
+                <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                <cmdp:label xml:lang="en-US">label64</cmdp:label>
+                <cmdp:label xml:lang="en-US">label65</cmdp:label>
+                <cmdp:location>http://www.oxygenxml.com/</cmdp:location>
+                <cmdp:location>http://www.oxygenxml.com/</cmdp:location>
+                <cmdp:TitleInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762412">
+                    <cmdp:title xml:lang="en-US">title2</cmdp:title>
+                    <cmdp:title xml:lang="en-US">title3</cmdp:title>
+                    <cmdp:alternativeTitle xml:lang="en-US">alternativeTitle2</cmdp:alternativeTitle>
+                    <cmdp:alternativeTitle xml:lang="en-US">alternativeTitle3</cmdp:alternativeTitle>
+                    <cmdp:subtitle xml:lang="en-US">subtitle2</cmdp:subtitle>
+                    <cmdp:subtitle xml:lang="en-US">subtitle3</cmdp:subtitle>
+                </cmdp:TitleInfo>
+                <cmdp:TitleInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762412">
+                    <cmdp:title xml:lang="en-US">title4</cmdp:title>
+                    <cmdp:title xml:lang="en-US">title5</cmdp:title>
+                    <cmdp:alternativeTitle xml:lang="en-US">alternativeTitle4</cmdp:alternativeTitle>
+                    <cmdp:alternativeTitle xml:lang="en-US">alternativeTitle5</cmdp:alternativeTitle>
+                    <cmdp:subtitle xml:lang="en-US">subtitle4</cmdp:subtitle>
+                    <cmdp:subtitle xml:lang="en-US">subtitle5</cmdp:subtitle>
+                </cmdp:TitleInfo>
+                <cmdp:Description xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762411">
+                    <cmdp:description xml:lang="en-US">description28</cmdp:description>
+                    <cmdp:description xml:lang="en-US">description29</cmdp:description>
+                </cmdp:Description>
+                <cmdp:Description xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762411">
+                    <cmdp:description xml:lang="en-US">description30</cmdp:description>
+                    <cmdp:description xml:lang="en-US">description31</cmdp:description>
+                </cmdp:Description>
+                <cmdp:ResourceType xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762403">
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:label xml:lang="en-US">label66</cmdp:label>
+                    <cmdp:label xml:lang="en-US">label67</cmdp:label>
+                </cmdp:ResourceType>
+                <cmdp:ResourceType xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762403">
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:label xml:lang="en-US">label68</cmdp:label>
+                    <cmdp:label xml:lang="en-US">label69</cmdp:label>
+                </cmdp:ResourceType>
+                <cmdp:CitationInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762416">
+                    <cmdp:bibliographicCitation format="format0">bibliographicCitation2</cmdp:bibliographicCitation>
+                    <cmdp:bibliographicCitation format="format1">bibliographicCitation3</cmdp:bibliographicCitation>
+                </cmdp:CitationInfo>
+                <cmdp:Creator xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762404">
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:label xml:lang="en-US">label70</cmdp:label>
+                    <cmdp:label xml:lang="en-US">label71</cmdp:label>
+                    <cmdp:role>role8</cmdp:role>
+                    <cmdp:role>role9</cmdp:role>
+                    <cmdp:AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
+                    </cmdp:AgentInfo>
+                </cmdp:Creator>
+                <cmdp:Creator xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762404">
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:label xml:lang="en-US">label72</cmdp:label>
+                    <cmdp:label xml:lang="en-US">label73</cmdp:label>
+                    <cmdp:role>role10</cmdp:role>
+                    <cmdp:role>role11</cmdp:role>
+                    <cmdp:AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
+                    </cmdp:AgentInfo>
+                </cmdp:Creator>
+                <cmdp:Contributor xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762453">
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:label xml:lang="en-US">label74</cmdp:label>
+                    <cmdp:label xml:lang="en-US">label75</cmdp:label>
+                    <cmdp:role>role12</cmdp:role>
+                    <cmdp:role>role13</cmdp:role>
+                    <cmdp:AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
+                    </cmdp:AgentInfo>
+                </cmdp:Contributor>
+                <cmdp:Contributor xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762453">
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:label xml:lang="en-US">label76</cmdp:label>
+                    <cmdp:label xml:lang="en-US">label77</cmdp:label>
+                    <cmdp:role>role14</cmdp:role>
+                    <cmdp:role>role15</cmdp:role>
+                    <cmdp:AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
+                    </cmdp:AgentInfo>
+                </cmdp:Contributor>
+            </cmdp:RelatedResource>
+            <cmdp:RelatedResource xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762430">
+                <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                <cmdp:label xml:lang="en-US">label78</cmdp:label>
+                <cmdp:label xml:lang="en-US">label79</cmdp:label>
+                <cmdp:location>http://www.oxygenxml.com/</cmdp:location>
+                <cmdp:location>http://www.oxygenxml.com/</cmdp:location>
+                <cmdp:TitleInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762412">
+                    <cmdp:title xml:lang="en-US">title6</cmdp:title>
+                    <cmdp:title xml:lang="en-US">title7</cmdp:title>
+                    <cmdp:alternativeTitle xml:lang="en-US">alternativeTitle6</cmdp:alternativeTitle>
+                    <cmdp:alternativeTitle xml:lang="en-US">alternativeTitle7</cmdp:alternativeTitle>
+                    <cmdp:subtitle xml:lang="en-US">subtitle6</cmdp:subtitle>
+                    <cmdp:subtitle xml:lang="en-US">subtitle7</cmdp:subtitle>
+                </cmdp:TitleInfo>
+                <cmdp:TitleInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762412">
+                    <cmdp:title xml:lang="en-US">title8</cmdp:title>
+                    <cmdp:title xml:lang="en-US">title9</cmdp:title>
+                    <cmdp:alternativeTitle xml:lang="en-US">alternativeTitle8</cmdp:alternativeTitle>
+                    <cmdp:alternativeTitle xml:lang="en-US">alternativeTitle9</cmdp:alternativeTitle>
+                    <cmdp:subtitle xml:lang="en-US">subtitle8</cmdp:subtitle>
+                    <cmdp:subtitle xml:lang="en-US">subtitle9</cmdp:subtitle>
+                </cmdp:TitleInfo>
+                <cmdp:Description xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762411">
+                    <cmdp:description xml:lang="en-US">description32</cmdp:description>
+                    <cmdp:description xml:lang="en-US">description33</cmdp:description>
+                </cmdp:Description>
+                <cmdp:Description xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762411">
+                    <cmdp:description xml:lang="en-US">description34</cmdp:description>
+                    <cmdp:description xml:lang="en-US">description35</cmdp:description>
+                </cmdp:Description>
+                <cmdp:ResourceType xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762403">
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:label xml:lang="en-US">label80</cmdp:label>
+                    <cmdp:label xml:lang="en-US">label81</cmdp:label>
+                </cmdp:ResourceType>
+                <cmdp:ResourceType xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762403">
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:label xml:lang="en-US">label82</cmdp:label>
+                    <cmdp:label xml:lang="en-US">label83</cmdp:label>
+                </cmdp:ResourceType>
+                <cmdp:CitationInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762416">
+                    <cmdp:bibliographicCitation format="format2">bibliographicCitation4</cmdp:bibliographicCitation>
+                    <cmdp:bibliographicCitation format="format3">bibliographicCitation5</cmdp:bibliographicCitation>
+                </cmdp:CitationInfo>
+                <cmdp:Creator xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762404">
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:label xml:lang="en-US">label84</cmdp:label>
+                    <cmdp:label xml:lang="en-US">label85</cmdp:label>
+                    <cmdp:role>role16</cmdp:role>
+                    <cmdp:role>role17</cmdp:role>
+                    <cmdp:AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
+                    </cmdp:AgentInfo>
+                </cmdp:Creator>
+                <cmdp:Creator xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762404">
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:label xml:lang="en-US">label86</cmdp:label>
+                    <cmdp:label xml:lang="en-US">label87</cmdp:label>
+                    <cmdp:role>role18</cmdp:role>
+                    <cmdp:role>role19</cmdp:role>
+                    <cmdp:AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
+                    </cmdp:AgentInfo>
+                </cmdp:Creator>
+                <cmdp:Contributor xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762453">
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:label xml:lang="en-US">label88</cmdp:label>
+                    <cmdp:label xml:lang="en-US">label89</cmdp:label>
+                    <cmdp:role>role20</cmdp:role>
+                    <cmdp:role>role21</cmdp:role>
+                    <cmdp:AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
+                    </cmdp:AgentInfo>
+                </cmdp:Contributor>
+                <cmdp:Contributor xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762453">
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:label xml:lang="en-US">label90</cmdp:label>
+                    <cmdp:label xml:lang="en-US">label91</cmdp:label>
+                    <cmdp:role>role22</cmdp:role>
+                    <cmdp:role>role23</cmdp:role>
+                    <cmdp:AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
+                    </cmdp:AgentInfo>
+                </cmdp:Contributor>
+            </cmdp:RelatedResource>
+            <cmdp:MetadataInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762458">
+                <cmdp:IdentificationInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762421">
+                    <cmdp:identifier type="DOI">http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:identifier type="DOI">http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:internalIdentifier type="type18">internalIdentifier2</cmdp:internalIdentifier>
+                    <cmdp:internalIdentifier type="type19">internalIdentifier3</cmdp:internalIdentifier>
+                    <cmdp:alternativeIdentifier type="type20">alternativeIdentifier2</cmdp:alternativeIdentifier>
+                    <cmdp:alternativeIdentifier type="type21">alternativeIdentifier3</cmdp:alternativeIdentifier>
+                </cmdp:IdentificationInfo>
+                <cmdp:TitleInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762412">
+                    <cmdp:title xml:lang="en-US">title10</cmdp:title>
+                    <cmdp:title xml:lang="en-US">title11</cmdp:title>
+                    <cmdp:alternativeTitle xml:lang="en-US">alternativeTitle10</cmdp:alternativeTitle>
+                    <cmdp:alternativeTitle xml:lang="en-US">alternativeTitle11</cmdp:alternativeTitle>
+                    <cmdp:subtitle xml:lang="en-US">subtitle10</cmdp:subtitle>
+                    <cmdp:subtitle xml:lang="en-US">subtitle11</cmdp:subtitle>
+                </cmdp:TitleInfo>
+                <cmdp:Creator xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762404">
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:label xml:lang="en-US">label92</cmdp:label>
+                    <cmdp:label xml:lang="en-US">label93</cmdp:label>
+                    <cmdp:role>role24</cmdp:role>
+                    <cmdp:role>role25</cmdp:role>
+                    <cmdp:AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
+                    </cmdp:AgentInfo>
+                </cmdp:Creator>
+                <cmdp:Creator xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762404">
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:label xml:lang="en-US">label94</cmdp:label>
+                    <cmdp:label xml:lang="en-US">label95</cmdp:label>
+                    <cmdp:role>role26</cmdp:role>
+                    <cmdp:role>role27</cmdp:role>
+                    <cmdp:AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
+                    </cmdp:AgentInfo>
+                </cmdp:Creator>
+                <cmdp:Contributor xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762453">
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:label xml:lang="en-US">label96</cmdp:label>
+                    <cmdp:label xml:lang="en-US">label97</cmdp:label>
+                    <cmdp:role>role28</cmdp:role>
+                    <cmdp:role>role29</cmdp:role>
+                    <cmdp:AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
+                    </cmdp:AgentInfo>
+                </cmdp:Contributor>
+                <cmdp:Contributor xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762453">
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:label xml:lang="en-US">label98</cmdp:label>
+                    <cmdp:label xml:lang="en-US">label99</cmdp:label>
+                    <cmdp:role>role30</cmdp:role>
+                    <cmdp:role>role31</cmdp:role>
+                    <cmdp:AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
+                    </cmdp:AgentInfo>
+                </cmdp:Contributor>
+                <cmdp:Publisher xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762427">
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:name>name24</cmdp:name>
+                    <cmdp:ContactInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762406">
+                    </cmdp:ContactInfo>
+                </cmdp:Publisher>
+                <cmdp:Publisher xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762427">
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:identifier>http://www.oxygenxml.com/</cmdp:identifier>
+                    <cmdp:name>name25</cmdp:name>
+                    <cmdp:ContactInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762406">
+                    </cmdp:ContactInfo>
+                </cmdp:Publisher>
+                <cmdp:CitationInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762416">
+                    <cmdp:bibliographicCitation format="format4">bibliographicCitation6</cmdp:bibliographicCitation>
+                    <cmdp:bibliographicCitation format="format5">bibliographicCitation7</cmdp:bibliographicCitation>
+                </cmdp:CitationInfo>
+                <cmdp:ProvenanceInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762423">
+                    <cmdp:Creation xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
+                        <cmdp:ActivityInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762422">
+                            <cmdp:When xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
+                            </cmdp:When>
+                        </cmdp:ActivityInfo>
+                        <cmdp:ActivityInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762422">
+                            <cmdp:When xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
+                            </cmdp:When>
+                        </cmdp:ActivityInfo>
+                    </cmdp:Creation>
+                    <cmdp:Collection xml:base="http://www.oxygenxml.com/" cmd:ref="ID000">
+                        <cmdp:ActivityInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762422">
+                            <cmdp:When xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
+                            </cmdp:When>
+                        </cmdp:ActivityInfo>
+                        <cmdp:ActivityInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762422">
+                            <cmdp:When xml:base="http://www.oxygenxml.com/" cmd:ref="ID000">
+                            </cmdp:When>
+                        </cmdp:ActivityInfo>
+                    </cmdp:Collection>
+                    <cmdp:Publication xml:base="http://www.oxygenxml.com/" cmd:ref="ID000">
+                        <cmdp:ActivityInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762422">
+                            <cmdp:When xml:base="http://www.oxygenxml.com/" cmd:ref="ID000">
+                            </cmdp:When>
+                        </cmdp:ActivityInfo>
+                        <cmdp:ActivityInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762422">
+                            <cmdp:When xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
+                            </cmdp:When>
+                        </cmdp:ActivityInfo>
+                    </cmdp:Publication>
+                    <cmdp:Activity xml:base="http://www.oxygenxml.com/" cmd:ref="ID000">
+                        <cmdp:label xml:lang="en-US">label100</cmdp:label>
+                        <cmdp:label xml:lang="en-US">label101</cmdp:label>
+                    </cmdp:Activity>
+                    <cmdp:Activity xml:base="http://www.oxygenxml.com/" cmd:ref="ID000">
+                        <cmdp:label xml:lang="en-US">label102</cmdp:label>
+                        <cmdp:label xml:lang="en-US">label103</cmdp:label>
+                    </cmdp:Activity>
+                </cmdp:ProvenanceInfo>
+                <cmdp:VersionInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762424">
+                    <cmdp:versionIdentifier>versionIdentifier1</cmdp:versionIdentifier>
+                    <cmdp:responsible>responsible2</cmdp:responsible>
+                    <cmdp:responsible>responsible3</cmdp:responsible>
+                    <cmdp:note xml:lang="en-US">note6</cmdp:note>
+                    <cmdp:note xml:lang="en-US">note7</cmdp:note>
+                    <cmdp:Description xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762411">
+                        <cmdp:description xml:lang="en-US">description36</cmdp:description>
+                        <cmdp:description xml:lang="en-US">description37</cmdp:description>
+                    </cmdp:Description>
+                    <cmdp:Description xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762411">
+                        <cmdp:description xml:lang="en-US">description38</cmdp:description>
+                        <cmdp:description xml:lang="en-US">description39</cmdp:description>
+                    </cmdp:Description>
+                    <cmdp:Responsible xml:base="http://www.oxygenxml.com/" cmd:ref="ID000">
+                    </cmdp:Responsible>
+                    <cmdp:Responsible xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
+                    </cmdp:Responsible>
+                </cmdp:VersionInfo>
+                <cmdp:FundingInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762429">
+                    <cmdp:Funding xml:base="http://www.oxygenxml.com/" cmd:ref="ID000">
+                    </cmdp:Funding>
+                    <cmdp:Funding xml:base="http://www.oxygenxml.com/" cmd:ref="ID000">
+                    </cmdp:Funding>
+                </cmdp:FundingInfo>
+                <cmdp:AccessInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762454">
+                    <cmdp:accessRights>openAccess</cmdp:accessRights>
+                    <cmdp:accessRequirement>authenticationRequired</cmdp:accessRequirement>
+                    <cmdp:accessRequirement>authenticationRequired</cmdp:accessRequirement>
+                    <cmdp:condition xml:lang="en-US">condition6</cmdp:condition>
+                    <cmdp:condition xml:lang="en-US">condition7</cmdp:condition>
+                    <cmdp:disclaimer xml:lang="en-US">disclaimer6</cmdp:disclaimer>
+                    <cmdp:disclaimer xml:lang="en-US">disclaimer7</cmdp:disclaimer>
+                    <cmdp:otherAccessInfo type="type22" xml:lang="en-US">otherAccessInfo6</cmdp:otherAccessInfo>
+                    <cmdp:otherAccessInfo type="type23" xml:lang="en-US">otherAccessInfo7</cmdp:otherAccessInfo>
+                    <cmdp:Licence xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762457">
+                        <cmdp:label xml:lang="en-US">label104</cmdp:label>
+                        <cmdp:label xml:lang="en-US">label105</cmdp:label>
+                    </cmdp:Licence>
+                    <cmdp:Licence xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762457">
+                        <cmdp:label xml:lang="en-US">label106</cmdp:label>
+                        <cmdp:label xml:lang="en-US">label107</cmdp:label>
+                    </cmdp:Licence>
+                    <cmdp:IntellectualPropertyRightsHolder xml:base="http://www.oxygenxml.com/" cmd:ref="ID000">
+                    </cmdp:IntellectualPropertyRightsHolder>
+                    <cmdp:IntellectualPropertyRightsHolder xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
+                    </cmdp:IntellectualPropertyRightsHolder>
+                    <cmdp:Contact xml:base="http://www.oxygenxml.com/" cmd:ref="ID000">
+                        <cmdp:AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID000" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
+                        </cmdp:AgentInfo>
+                    </cmdp:Contact>
+                    <cmdp:Contact xml:base="http://www.oxygenxml.com/" cmd:ref="ID001">
+                        <cmdp:AgentInfo xml:base="http://www.oxygenxml.com/" cmd:ref="ID001" cmd:ComponentId="clarin.eu:cr1:c_1595321762451">
+                        </cmdp:AgentInfo>
+                    </cmdp:Contact>
+                </cmdp:AccessInfo>
+            </cmdp:MetadataInfo>
+        </cmdp:DataCiteRecord>
     </cmd:Components>
 </cmd:CMD>
