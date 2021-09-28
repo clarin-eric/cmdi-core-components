@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1595321762428"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1595321762428/xsd"
+         CMDVersion="1.2">
+   <cmd:Header>
+      <cmd:MdCreator>Velikonja, Mitja</cmd:MdCreator>
+      <cmd:MdCreator>Sergeja Masten, ADP</cmd:MdCreator>
+      <!--Derived creation date. Value in original metadata: '2018-12'-->
+      <cmd:MdCreationDate>2018-12-01</cmd:MdCreationDate>
+      <cmd:MdProfile>clarin.eu:cr1:p_1595321762428</cmd:MdProfile>
+      <cmd:MdCollectionDisplayName>ADP-CMDI conversion test</cmd:MdCollectionDisplayName>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d1e98">
+            <cmd:ResourceType>LandingPage</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.17898/ADP_NJPS13_V1</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F1">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://www.adp.fdv.uni-lj.si/media/podatki/njps13/njps13_p1_sl_v1_r0.jpg</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F2">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://www.adp.fdv.uni-lj.si/media/podatki/njps13/njps13_p2_sl_v1_r0.jpg</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F3">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://www.adp.fdv.uni-lj.si/media/podatki/njps13/njps13_p3_sl_v1_r0.jpg</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F4">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://www.adp.fdv.uni-lj.si/media/podatki/njps13/njps13_p4_sl_v1_r0.pdf</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F5">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://www.adp.fdv.uni-lj.si/media/podatki/njps13/njps13_p5_sl_v1_r0.pdf</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F6">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://www.adp.fdv.uni-lj.si/media/podatki/njps13/njps13_p6_sl_v1_r0.jpg</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F7">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://www.adp.fdv.uni-lj.si/media/podatki/njps13/njps13_p7_sl_v1_r0.jpg</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F8">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://www.adp.fdv.uni-lj.si/media/podatki/njps13/njps13_p8_sl_v1_r0.jpg</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F9">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://www.adp.fdv.uni-lj.si/media/podatki/njps13/njps13_p9_sl_v1_r0.jpg</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F10">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://www.adp.fdv.uni-lj.si/media/podatki/njps13/njps13_p10_sl_v1_r0.jpg</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F11">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://www.adp.fdv.uni-lj.si/media/podatki/njps13/njps13_p11_sl_v1_r0.jpg</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F12">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://www.adp.fdv.uni-lj.si/media/podatki/njps13/njps13_p12_sl_v1_r1.pdf</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F13">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://www.adp.fdv.uni-lj.si/media/podatki/njps13/njps13_p13_sl_v1_r0.jpg</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F14">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://www.adp.fdv.uni-lj.si/media/podatki/njps13/njps13_p14_sl_v1_r0.jpg</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F15">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://www.adp.fdv.uni-lj.si/media/podatki/njps13/njps13_p15_sl_v1_r0.jpg</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F16">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://www.adp.fdv.uni-lj.si/media/podatki/njps13/njps13_p16_sl_v1_r0.jpg</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F17">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://www.adp.fdv.uni-lj.si/media/podatki/njps13/njps13_p17_sl_v1_r0.jpg</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F18">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://www.24ur.com/ekskluziv/glasba/z-anko-partizanko-na-barikade.html</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F19">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://www.youtube.com/watch?v=7LuRz30ngI8</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F20">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://www.facebook.com/events/408078655879092/</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F21">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://www.24ur.com/novice/slovenija/z-okroznico-svarijo-sole-pred-povelicevanjem-tita.html</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F22">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://www.24ur.com/novice/slovenija/z-okroznico-svarijo-sole-pred-povelicevanjem-tita.html</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F23">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://www.24ur.com/novice/slovenija/z-okroznico-svarijo-sole-pred-povelicevanjem-tita.html</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F24">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://www.adp.fdv.uni-lj.si/media/podatki/njps13/njps13_p24_sl_v1_r0.jpg</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F25">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://www.adp.fdv.uni-lj.si/media/podatki/njps13/njps13_p25_sl_v1_r0.jpg</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F26">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://www.adp.fdv.uni-lj.si/media/podatki/njps13/njps13_p26_sl_v1_r0.jpg</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F27">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://www.adp.fdv.uni-lj.si/media/podatki/njps13/njps13_p27_sl_v1_r0.jpg</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F28">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://www.adp.fdv.uni-lj.si/media/podatki/..podatki/njps13/njps13_p28_sl_v1_r0.jpg</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F29">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://www.adp.fdv.uni-lj.si/media/podatki/njps13/njps13_p29_sl_v1_r1.pdf</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F30">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>http://www.had.si/blog/2008/11/29/cestitam-za-dan-republike-29-november/</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F31">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>http://seks.blog.siol.net/2006/11/29/29-november/</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F32">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://www.tomazgorec.si/tag/29-november/</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F33">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://www.adp.fdv.uni-lj.si/media/podatki/njps13/njps13_p33_sl_v1_r1.jpg</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F34">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>http://crnkovic.blog.siol.net/2010/05/14/ne-cakaj-na-4-maj/</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F35">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://www.mojvideo.com/video-smrt-josipa-broza-tita-4-maj/2da3a11d6837a79028b6</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F36">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>http://www.pesnik.net/content/view/5501/44/</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F37">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://www.rtvslo.si/svet/spomin-na-tita-se-vedno-ziv/70535</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="F38">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://www.rtvslo.si/svet/foto-med-titovimi-privrzenci-v-hisi-cvetja-najvec-slovencev/282392</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:Components>
+      <DDICodebook>
+         <IdentificationInfo>
+            <identifier>https://doi.org/10.17898/ADP_NJPS13_V1</identifier>
+            <internalIdentifier>NJPS13</internalIdentifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title xml:lang="en-GB">Yugoslovenia: Celebrating former Yugoslav Holidays in Contemporary Slovenia, 2013</title>
+            <title xml:lang="sl-SI">Jugoslovenija: Slavljenje nekdanjih jugoslovanskih praznikov v sodobni Sloveniji, 2013</title>
+         </TitleInfo>
+         <Description>
+            <description xml:lang="en-GB">
+        The study deals with cultural practices, dimensions, and ideological meanings of the three most popular former Yugoslav holidays in contemporary Slovenia. 
+        These are the Youth Day (25 May), the Day of the Republic (29 November) and the Anniversary of the Death of Josip Broz Tito (4 May). 
+        The purpose of the study was to determine, in what form these three former holidays are being celebrated today, and what kind of meanings and political consequences they have in the contemporary Slovene society.
+        Within the study description, only a few pictures (n=9) and textual materials (n=29) that were used by the 
+        author in his research as a supplement to an in-depth analysis of other content regarding holidays mentioned by the author within the article 
+        »Jugoslovenija: Slavljenje nekdanjih jugoslovanskih praznikov v sodobni Sloveniji«, where he thoroughly presents the occurrence of events in Slovenia after its independence, are available. 
+      </description>
+         </Description>
+         <ResourceType>
+            <identifier>urn:ddi-cv:GeneralDataFormat:2.0:StillImage</identifier>
+            <label xml:lang="en-GB">Still image</label>
+         </ResourceType>
+         <ResourceType>
+            <identifier>urn:ddi-cv:GeneralDataFormat:2.0:Text</identifier>
+            <label xml:lang="en-GB">Text</label>
+         </ResourceType>
+         <Creator>
+            <label>Velikonja, Mitja</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Velikonja, Mitja</name>
+                  <affiliation>Center za preučevanje kulture in religije = Centre for Cultural and Religious Studies, Fakulteta za družbene vede = Faculty of Social Sciences</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <ProvenanceInfo>
+            <Creation>
+               <ActivityInfo>
+                  <method>Production</method>
+                  <note>prodPlac = Slovenia</note>
+                  <When>
+                     <label>2013</label>
+                     <label>2013</label>
+                  </When>
+                  <Responsible>
+                     <label>Center za preučevanje kulture in religije = Centre for Cultural and Religious Studies</label>
+                     <label>CPKR</label>
+                  </Responsible>
+               </ActivityInfo>
+            </Creation>
+            <Collection>
+               <ActivityInfo>
+                  <When>
+                     <label>start: 2013</label>
+                     <label>start: 2011</label>
+                  </When>
+               </ActivityInfo>
+               <ActivityInfo>
+                  <When>
+                     <label>end: 2013</label>
+                     <label>end: 2013</label>
+                  </When>
+               </ActivityInfo>
+            </Collection>
+         </ProvenanceInfo>
+         <DistributionInfo><!--Original: '2018'-->
+            <distributionDate>2018-01-01</distributionDate>
+            <depositionDate>2018-08-28</depositionDate>
+            <Distributor>
+               <label>Arhiv družboslovnih podatkov = Social Science Data Archives</label>
+               <label>ADP</label>
+            </Distributor>
+            <Depositor>
+               <label>Center za preučevanje kulture in religije = Centre for Cultural and Religious Studies, Fakulteta za družbene vede = Faculty of Social Sciences, Univerza v Ljubljani = University of Ljubljana</label>
+               <label>CPKR</label>
+            </Depositor>
+         </DistributionInfo>
+         <Subject>
+            <identifier>urn:ddi:int.cessda.cv:TopicClassification:3.0:SocietyAndCulture.CulturalAndNationalIdentity</identifier>
+            <label xml:lang="en-GB">SOCIETY AND CULTURE - Cultural and national identity</label>
+         </Subject>
+         <Subject>
+            <identifier>http://sicris.izum.si/:S210</identifier>
+            <label xml:lang="en-GB">Sociology</label>
+         </Subject>
+         <Keyword>
+            <label xml:lang="en-GB">holidays</label>
+         </Keyword>
+         <Keyword>
+            <label xml:lang="en-GB">yugonostalgia</label>
+         </Keyword>
+         <Keyword>
+            <label xml:lang="en-GB">Slovenia</label>
+         </Keyword>
+         <Keyword>
+            <label xml:lang="en-GB">Yugoslavia</label>
+         </Keyword>
+         <Keyword>
+            <label xml:lang="en-GB">CULTURAL VALUES</label>
+         </Keyword>
+         <Keyword>
+            <label xml:lang="en-GB">CULTURAL IDENTITY</label>
+         </Keyword>
+         <FundingInfo>
+            <Funding>
+               <grantNumber>J6-4007 (B)</grantNumber>
+            </Funding>
+            <Funding>
+               <FundingAgency>
+                  <label xml:lang="en-GB">Javna agencija za raziskovalno dejavnost Republike Slovenije = Slovenian Research Agency</label>
+                  <label>ARRS</label>
+               </FundingAgency>
+            </Funding>
+         </FundingInfo>
+         <TemporalCoverage>
+            <label>1991 - 2013</label>
+            <Start>
+               <date>2013-01-01</date>
+               <label xml:lang="en-GB">1991</label>
+            </Start>
+            <End>
+               <date>2013-01-01</date>
+               <label xml:lang="en-GB">2013</label>
+            </End>
+         </TemporalCoverage>
+         <GeographicCoverage>
+            <GeoLocation>
+               <label xml:lang="en-GB">Slovenia</label>
+            </GeoLocation>
+         </GeographicCoverage>
+         <AccessInfo>
+            <condition xml:lang="en-GB">The users should acknowledge in any publication both the original depositors and the Archive.</condition>
+            <condition xml:lang="en-GB">Users are requested to deposit with the Archive two copies of any published work or report based wholly or in part on such materials and to notify the Archive of any errors discovered in the materials.</condition>
+            <condition xml:lang="en-GB">In case of ambiguity the users of the data set are advised to contact principal investigators or Archive.</condition>
+            <condition xml:lang="en-GB">The data are unrestricted for academic purposes only and licensed under a Creative Commons Attribution + NonCommercial 4.0 International License. The users should use the materials only for the purposes specified in Ordering form, to act at all times so as to preserve the confidentiality of individuals and institutions recorded in the materials. </condition>
+            <condition>ccbync</condition>
+            <Contact>
+               <label xml:lang="en-GB">Arhiv družboslovnih podatkov = Social Science Data Archives</label>
+               <Description>
+                  <description>Access location</description>
+               </Description>
+               <AgentInfo>
+                  <OrganisationInfo>
+                     <name xml:lang="en-GB">Arhiv družboslovnih podatkov = Social Science Data Archives</name>
+                     <ContactInfo>
+                        <url>http://www.adp.fdv.uni-lj.si/podatki/</url>
+                     </ContactInfo>
+                  </OrganisationInfo>
+               </AgentInfo>
+            </Contact>
+         </AccessInfo>
+         <CitationInfo>
+            <bibliographicCitation>Velikonja, M. (2018). Yugoslovenia: Celebrating former Yugoslav Holidays in Contemporary Slovenia, 2013 [Data file]. Ljubljana: Univerza v Ljubljani = University of Ljubljana, Arhiv družboslovnih podatkov = Social Science Data Archives. ADP - IDNo: NJPS13. Retrieved from: https://www.adp.fdv.uni-lj.si/opisi/njps13/</bibliographicCitation>
+         </CitationInfo>
+         <Subresource cmd:ref="F1">
+            <SubresourceDescription>
+               <label xml:lang="sl-SI">Dan mladosti, telesa in duha [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <Subresource cmd:ref="F2">
+            <SubresourceDescription>
+               <label xml:lang="sl-SI">Titova štafeta in dan mladosti [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <Subresource cmd:ref="F3">
+            <SubresourceDescription>
+               <label xml:lang="sl-SI">Tito na dan mladosti pojezil superministrstvo [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <Subresource cmd:ref="F4">
+            <SubresourceDescription>
+               <label xml:lang="sl-SI">Titova vdova za Politiko prekinila molk [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <Subresource cmd:ref="F5">
+            <SubresourceDescription>
+               <label xml:lang="sl-SI">Od uršulinskih oblek do pionirskih rdečih rutic in titovk [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <Subresource cmd:ref="F6">
+            <SubresourceDescription>
+               <label xml:lang="sl-SI">Prekaljeni alternativci [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <Subresource cmd:ref="F7">
+            <SubresourceDescription>
+               <label xml:lang="sl-SI">Tito rešuje krizo [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <Subresource cmd:ref="F8">
+            <SubresourceDescription>
+               <label xml:lang="sl-SI">Titova država, "totalitarna"? [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <Subresource cmd:ref="F9">
+            <SubresourceDescription>
+               <label xml:lang="sl-SI">Titova država, "totalitarna"? [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <Subresource cmd:ref="F10">
+            <SubresourceDescription>
+               <label xml:lang="sl-SI">25. maja v klubu K4, dan mladosti, zaključni FU fest [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <Subresource cmd:ref="F11">
+            <SubresourceDescription>
+               <label xml:lang="sl-SI">Modri vodnik [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <Subresource cmd:ref="F12">
+            <SubresourceDescription>
+               <label xml:lang="sl-SI">Okrožnica na temo spoštovanja temeljnih ustavnih vrednot [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <Subresource cmd:ref="F13">
+            <SubresourceDescription>
+               <label xml:lang="sl-SI">Dan mladosti protiustaven [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <Subresource cmd:ref="F14">
+            <SubresourceDescription>
+               <label xml:lang="sl-SI">RAZSTAVA JOSIP BROZ-TITO [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <Subresource cmd:ref="F15">
+            <SubresourceDescription>
+               <label xml:lang="sl-SI">25. MAJ [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <Subresource cmd:ref="F16">
+            <SubresourceDescription>
+               <label xml:lang="sl-SI">Dan mladosti v Črni [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <Subresource cmd:ref="F17">
+            <SubresourceDescription>
+               <label xml:lang="sl-SI">Šole naj ne slavijo Titovega režima [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <Subresource cmd:ref="F18">
+            <SubresourceDescription>
+               <label xml:lang="sl-SI">Z Anko Partizanko na barikade [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <Subresource cmd:ref="F19">
+            <SubresourceDescription>
+               <label xml:lang="en-GB">Korea kids singing to Tito [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <Subresource cmd:ref="F20">
+            <SubresourceDescription>
+               <label xml:lang="sl-SI">25. MAJ - DAN MLADOSTI [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <Subresource cmd:ref="F21">
+            <SubresourceDescription>
+               <label xml:lang="sl-SI">Z okrožnico svarijo pred poveličevanjem Tita [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <Subresource cmd:ref="F22">
+            <SubresourceDescription>
+               <label xml:lang="sl-SI">Z okrožnico svarijo pred poveličevanjem Tita: ODLOČBA [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <Subresource cmd:ref="F23">
+            <SubresourceDescription>
+               <label xml:lang="sl-SI">Z okrožnico svarijo pred poveličevanjem Tita: TISKOVNO SPOROČILO [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <Subresource cmd:ref="F24">
+            <SubresourceDescription>
+               <label xml:lang="hr-HR">»Vrijeme je da se vratim!« [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <Subresource cmd:ref="F25">
+            <SubresourceDescription>
+               <label xml:lang="sl-SI">/ [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <Subresource cmd:ref="F26">
+            <SubresourceDescription>
+               <label xml:lang="sl-SI">Grafit: »Živel 29. nov« [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <Subresource cmd:ref="F27">
+            <SubresourceDescription>
+               <label xml:lang="sl-SI">Stencil – Graffiti, Ljubljana, Slovenia, late 1900s [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <Subresource cmd:ref="F28">
+            <SubresourceDescription>
+               <label xml:lang="hr-HR">»Slovenci« [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <Subresource cmd:ref="F29">
+            <SubresourceDescription>
+               <label xml:lang="hr-HR">29. 11. 2012 [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <Subresource cmd:ref="F30">
+            <SubresourceDescription>
+               <label xml:lang="sl-SI">Čestitam za Dan republike - 29. november [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <Subresource cmd:ref="F31">
+            <SubresourceDescription>
+               <label xml:lang="sl-SI">29. november [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <Subresource cmd:ref="F32">
+            <SubresourceDescription>
+               <label xml:lang="sl-SI">Danes praznujemo Dan republike [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <Subresource cmd:ref="F33">
+            <SubresourceDescription>
+               <label xml:lang="hr-HR">Tužno sjećanje [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <Subresource cmd:ref="F34">
+            <SubresourceDescription>
+               <label xml:lang="sl-SI">Ne čakaj na 4. maj [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <Subresource cmd:ref="F35">
+            <SubresourceDescription>
+               <label xml:lang="sl-SI">Smrt Josipa Broza TITA 4 Maj [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <Subresource cmd:ref="F36">
+            <SubresourceDescription>
+               <label xml:lang="hr-HR">V spromin TITU (4. Maj 1980) [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <Subresource cmd:ref="F37">
+            <SubresourceDescription>
+               <label xml:lang="sl-SI">Spomin na Tita še vedno živ: Različni pogledi na življenje pod Titom [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <Subresource cmd:ref="F38">
+            <SubresourceDescription>
+               <label xml:lang="sl-SI">Foto: Med Titovimi privrženci: v Hiši cvetja največ Slovencev [Data file]</label>
+               <description>caseQnty: 1</description>
+            </SubresourceDescription>
+         </Subresource>
+         <RelatedResource>
+            <identifier>NJPS13_OM1_SL_V1_R1</identifier>
+            <label xml:lang="en-GB">Jugoslovenija: Slavljenje nekdanjih jugoslovanskih praznikov v sodobni Sloveniji, 2013. Seznam virov [Other material]</label>
+            <location>https://www.adp.fdv.uni-lj.si/media/podatki/njps13/njps13_om1_sl_v1_r1.pdf</location>
+            <CitationInfo>
+               <bibliographicCitation>Velikonja, Mitja. Jugoslovenija: Slavljenje nekdanjih jugoslovanskih praznikov v sodobni Sloveniji, 2013. Seznam virov [Other material]ADP. Ljubljana, 2018.</bibliographicCitation>
+            </CitationInfo>
+         </RelatedResource>
+         <MetadataInfo>
+            <IdentificationInfo>
+               <identifier>NJPS13</identifier>
+            </IdentificationInfo>
+            <TitleInfo>
+               <title xml:lang="en-GB">Yugoslovenia: Celebrating former Yugoslav Holidays in Contemporary Slovenia, 2013</title>
+               <title xml:lang="sl-SI">Jugoslovenija: Slavljenje nekdanjih jugoslovanskih praznikov v sodobni Sloveniji, 2013</title>
+            </TitleInfo>
+            <Creator>
+               <label>Velikonja, Mitja</label>
+               <AgentInfo>
+                  <PersonInfo>
+                     <name>Velikonja, Mitja</name>
+                     <affiliation>Center za preučevanje kulture in religije = Centre for Cultural and Religious Studies, Fakulteta za družbene vede = Faculty of Social Sciences</affiliation>
+                  </PersonInfo>
+               </AgentInfo>
+            </Creator>
+            <Contributor>
+               <label xml:lang="en-GB">Arhiv družboslovnih podatkov = Social Science Data Archives</label>
+               <label>ADP</label>
+               <role>Distributor</role>
+            </Contributor>
+            <CitationInfo>
+               <bibliographicCitation>Velikonja, M. (2018). Yugoslovenia: Celebrating former Yugoslav Holidays in Contemporary Slovenia, 2013 [Codebook file]. Ljubljana: Univerza v Ljubljani = University of Ljubljana, Arhiv družboslovnih podatkov = Social Science Data Archives. ADP - IDNo: NJPS13. Retrieved from: https://www.adp.fdv.uni-lj.si/opisi/njps13/</bibliographicCitation>
+            </CitationInfo>
+            <ProvenanceInfo>
+               <Creation>
+                  <ActivityInfo>
+                     <method>Production</method>
+                     <note>prodPlac = Ljubljana, Slovenia</note>
+                     <When>
+                        <label>December 2018</label>
+                        <label>2018-12</label>
+                     </When>
+                     <Responsible>
+                        <label>Arhiv družboslovnih podatkov = Social Science Data Archives</label>
+                        <label>ADP</label>
+                     </Responsible>
+                  </ActivityInfo>
+               </Creation>
+               <Activity>
+                  <label>Conversion to CMDI</label>
+                  <note>Automatic metadata conversion with stylesheet adp-ddi_2_5_to_cmdi.xsl</note>
+                  <ActivityInfo>
+                     <When>
+                        <date>2021-06-16Z</date>
+                     </When>
+                  </ActivityInfo>
+               </Activity>
+            </ProvenanceInfo>
+            <FundingInfo>
+               <Funding>
+                  <grantNumber>1000-15-0510 (IRC)</grantNumber>
+               </Funding>
+               <Funding>
+                  <FundingAgency>
+                     <label xml:lang="en-GB">Javna agencija za raziskovalno dejavnost Republike Slovenije = Slovenian Research Agency</label>
+                     <label>ARRS</label>
+                  </FundingAgency>
+               </Funding>
+            </FundingInfo>
+         </MetadataInfo>
+      </DDICodebook>
+   </cmd:Components>
+</cmd:CMD>
