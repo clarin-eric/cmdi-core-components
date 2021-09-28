@@ -1,6 +1,6 @@
 ## Links
 
-* [Bazaar 2020 slides](bazaar2020.pdf) (PDF)
+* [Bazaar slides](bazaar2020.pdf) (PDF)
 * [Overview of components and profiles currently in development](./overview)
 * [Repository with sample records](https://github.com/clarin-eric/cmdi-core-components)
 * [General information about CMDI](https://www.clarin.eu/cmdi)
