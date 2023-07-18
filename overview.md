@@ -12,7 +12,7 @@ Last update: 10 May 2022, 10:50 CEST
     - [Records in the VLO!](https://vlo.clarin.eu/search?q=_componentProfileId:clarin.eu:cr1:p_1639731773869)
 -   [TextResource](https://menzowindhouwer.github.io/lab/cr2html/index.html#clarin.eu:cr1:p_1633000337997) `NEW`
     - [Records in the VLO!](https://vlo.clarin.eu/search?q=_componentProfileId:clarin.eu:cr1:p_1633000337997)
--   [LCR_Corpus](https://menzowindhouwer.github.io/lab/cr2html/index.html#clarin.eu:cr1:p_1610707853542) (too big to load for now? sorry...)
+-   [LCR_Corpus](https://menzowindhouwer.github.io/lab/cr2html/index.html#clarin.eu:cr1:p_1610707853542) (work in progress, please do not use yet)
     -   Profile for Learner Corpus Research (non-conversion use case)
 -   [Virtual Collection Registry](https://menzowindhouwer.github.io/lab/cr2html/index.html#clarin.eu:cr1:p_1595321762407/xsd) (too big to load for now? sorry...)
 
